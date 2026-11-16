@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 985bbd5212965fe4497ba2d72458fcbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5267475376732967349
+    second: Xandros--Knock-off-screen_0008_frame_08_0
+  - first:
+      213: -5416037752679191494
+    second: Xandros--Knock-off-screen_0008_frame_08_1
+  - first:
+      213: 7850497391146234287
+    second: Xandros--Knock-off-screen_0008_frame_08_2
+  - first:
+      213: 8216326074475825687
+    second: Xandros--Knock-off-screen_0008_frame_08_3
+  - first:
+      213: 5613503288316782111
+    second: Xandros--Knock-off-screen_0008_frame_08_4
+  - first:
+      213: 8200070668054419185
+    second: Xandros--Knock-off-screen_0008_frame_08_5
+  - first:
+      213: 5128888510506026195
+    second: Xandros--Knock-off-screen_0008_frame_08_6
+  - first:
+      213: -7218877322020659990
+    second: Xandros--Knock-off-screen_0008_frame_08_7
+  - first:
+      213: 5115722136660740595
+    second: Xandros--Knock-off-screen_0008_frame_08_8
+  - first:
+      213: -4554366376132581272
+    second: Xandros--Knock-off-screen_0008_frame_08_9
+  - first:
+      213: 7426499048848476811
+    second: Xandros--Knock-off-screen_0008_frame_08_10
+  - first:
+      213: -8619759254414658289
+    second: Xandros--Knock-off-screen_0008_frame_08_11
+  - first:
+      213: -6192387965639805972
+    second: Xandros--Knock-off-screen_0008_frame_08_12
+  - first:
+      213: 6808592294976246550
+    second: Xandros--Knock-off-screen_0008_frame_08_13
+  - first:
+      213: -2759850761391904178
+    second: Xandros--Knock-off-screen_0008_frame_08_14
+  - first:
+      213: -8650126460906865164
+    second: Xandros--Knock-off-screen_0008_frame_08_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_0
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 653
+        width: 373
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ee6ba9d0b26e6b0800000000000000
+      internalID: -5267475376732967349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_1
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 632
+        width: 311
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ca37dfb5e56d4b0800000000000000
+      internalID: -5416037752679191494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_2
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 662
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1f66598c192fc60800000000000000
+      internalID: 7850497391146234287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_3
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 158
+        width: 891
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a49e36801460270800000000000000
+      internalID: 8216326074475825687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 623
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16eb95cf7b27ed40800000000000000
+      internalID: 5613503288316782111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_5
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 623
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6db76a3d08cc170800000000000000
+      internalID: 8200070668054419185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_6
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 614
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d44b412de87d2740800000000000000
+      internalID: 5128888510506026195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_7
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 619
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecd5d7a25561db90800000000000000
+      internalID: -7218877322020659990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 612
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f90445dd22bef640800000000000000
+      internalID: 5115722136660740595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 611
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86862a539e3abc0c0800000000000000
+      internalID: -4554366376132581272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 156
+        width: 287
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ac363a989301760800000000000000
+      internalID: 7426499048848476811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_11
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 165
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f057a37a0a6706880800000000000000
+      internalID: -8619759254414658289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_12
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 149
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3b2a434f7301aa0800000000000000
+      internalID: -6192387965639805972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_13
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 123
+        width: 229
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613558a6e9afc7e50800000000000000
+      internalID: 6808592294976246550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_14
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 129
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ae426da5a03b9d0800000000000000
+      internalID: -2759850761391904178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros--Knock-off-screen_0008_frame_08_15
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 135
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd707b60d394f780800000000000000
+      internalID: -8650126460906865164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Xandros--Knock-off-screen_0008_frame_08_0: -5267475376732967349
+      Xandros--Knock-off-screen_0008_frame_08_1: -5416037752679191494
+      Xandros--Knock-off-screen_0008_frame_08_10: 7426499048848476811
+      Xandros--Knock-off-screen_0008_frame_08_11: -8619759254414658289
+      Xandros--Knock-off-screen_0008_frame_08_12: -6192387965639805972
+      Xandros--Knock-off-screen_0008_frame_08_13: 6808592294976246550
+      Xandros--Knock-off-screen_0008_frame_08_14: -2759850761391904178
+      Xandros--Knock-off-screen_0008_frame_08_15: -8650126460906865164
+      Xandros--Knock-off-screen_0008_frame_08_2: 7850497391146234287
+      Xandros--Knock-off-screen_0008_frame_08_3: 8216326074475825687
+      Xandros--Knock-off-screen_0008_frame_08_4: 5613503288316782111
+      Xandros--Knock-off-screen_0008_frame_08_5: 8200070668054419185
+      Xandros--Knock-off-screen_0008_frame_08_6: 5128888510506026195
+      Xandros--Knock-off-screen_0008_frame_08_7: -7218877322020659990
+      Xandros--Knock-off-screen_0008_frame_08_8: 5115722136660740595
+      Xandros--Knock-off-screen_0008_frame_08_9: -4554366376132581272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
