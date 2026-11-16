@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: ripptopia-login-demo
+    runtime: node
+    plan: free
+    region: singapore
+    rootDir: DemoBackend
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health/ready
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"
