@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 3dba128d13d57154cba2a8a5f09df7e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1806319478744841286
+    second: Ai Wins - Layout example_0
+  - first:
+      213: -4712757253404727270
+    second: Ai Wins - Layout example_1
+  - first:
+      213: -1799801652332960800
+    second: Ai Wins - Layout example_2
+  - first:
+      213: 2534733477899381607
+    second: Ai Wins - Layout example_3
+  - first:
+      213: 6466923073517278533
+    second: Ai Wins - Layout example_4
+  - first:
+      213: 1875624475964548548
+    second: Ai Wins - Layout example_5
+  - first:
+      213: 1759747987402296985
+    second: Ai Wins - Layout example_6
+  - first:
+      213: 1440696425382007724
+    second: Ai Wins - Layout example_7
+  - first:
+      213: -8255212618828415594
+    second: Ai Wins - Layout example_8
+  - first:
+      213: -2952541612893979569
+    second: Ai Wins - Layout example_9
+  - first:
+      213: 1469809089395081673
+    second: Ai Wins - Layout example_10
+  - first:
+      213: 6369691407520458711
+    second: Ai Wins - Layout example_11
+  - first:
+      213: -7590718588464140722
+    second: Ai Wins - Layout example_12
+  - first:
+      213: 7288025022438468377
+    second: Ai Wins - Layout example_13
+  - first:
+      213: -52287069129878432
+    second: Ai Wins - Layout example_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_0
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 773
+        width: 740
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab38b8e110aaee6e0800000000000000
+      internalID: -1806319478744841286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_1
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 844
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a186a2e4f3ce89eb0800000000000000
+      internalID: -4712757253404727270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_2
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 833
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e36886dee1d507e0800000000000000
+      internalID: -1799801652332960800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_3
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 772
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bab762bae2d2320800000000000000
+      internalID: 2534733477899381607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 716
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54556caa5402fb950800000000000000
+      internalID: 6466923073517278533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 489
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c525edf58e870a10800000000000000
+      internalID: 1875624475964548548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 237
+        width: 627
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e82539871eb6810800000000000000
+      internalID: 1759747987402296985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_7
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 449
+        width: 617
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3d11804c16ef310800000000000000
+      internalID: 1440696425382007724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 213
+        width: 610
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df8657cd79f6d80800000000000000
+      internalID: -8255212618828415594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_9
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 451
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c35eadb077607d0800000000000000
+      internalID: -2952541612893979569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_10
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 402
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1c805549fc56410800000000000000
+      internalID: 1469809089395081673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_11
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 378
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d76d1a4690b56850800000000000000
+      internalID: 6369691407520458711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_12
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 217
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ee3a049a958a690800000000000000
+      internalID: -7590718588464140722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 54
+        width: 501
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b6a90f424442560800000000000000
+      internalID: 7288025022438468377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ai Wins - Layout example_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 58
+        width: 545
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064da2a003d364ff0800000000000000
+      internalID: -52287069129878432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ai Wins - Layout example_0: -1806319478744841286
+      Ai Wins - Layout example_1: -4712757253404727270
+      Ai Wins - Layout example_10: 1469809089395081673
+      Ai Wins - Layout example_11: 6369691407520458711
+      Ai Wins - Layout example_12: -7590718588464140722
+      Ai Wins - Layout example_13: 7288025022438468377
+      Ai Wins - Layout example_14: -52287069129878432
+      Ai Wins - Layout example_2: -1799801652332960800
+      Ai Wins - Layout example_3: 2534733477899381607
+      Ai Wins - Layout example_4: 6466923073517278533
+      Ai Wins - Layout example_5: 1875624475964548548
+      Ai Wins - Layout example_6: 1759747987402296985
+      Ai Wins - Layout example_7: 1440696425382007724
+      Ai Wins - Layout example_8: -8255212618828415594
+      Ai Wins - Layout example_9: -2952541612893979569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

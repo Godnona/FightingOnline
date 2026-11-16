@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: d6ca49f5db4aa2e4aa89c36d194143ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3696883203881568628
+    second: Chain-Detected---Still_0
+  - first:
+      213: -5835767116708411042
+    second: Chain-Detected---Still_1
+  - first:
+      213: 1307984905884707881
+    second: Chain-Detected---Still_2
+  - first:
+      213: -5779569798521096112
+    second: Chain-Detected---Still_3
+  - first:
+      213: 8550320735680692790
+    second: Chain-Detected---Still_4
+  - first:
+      213: -6177222024730641195
+    second: Chain-Detected---Still_5
+  - first:
+      213: 1192035185461626467
+    second: Chain-Detected---Still_6
+  - first:
+      213: 1511353688809613382
+    second: Chain-Detected---Still_7
+  - first:
+      213: 2411892891351869711
+    second: Chain-Detected---Still_8
+  - first:
+      213: 3655362163993887184
+    second: Chain-Detected---Still_9
+  - first:
+      213: 1029144354925708177
+    second: Chain-Detected---Still_10
+  - first:
+      213: 5009533078106596760
+    second: Chain-Detected---Still_11
+  - first:
+      213: 3126551361320315390
+    second: Chain-Detected---Still_12
+  - first:
+      213: 7265914561238113736
+    second: Chain-Detected---Still_13
+  - first:
+      213: -5805985560079413104
+    second: Chain-Detected---Still_14
+  - first:
+      213: -8270462398493719145
+    second: Chain-Detected---Still_15
+  - first:
+      213: 155983742677168516
+    second: Chain-Detected---Still_16
+  - first:
+      213: -5518594724576296345
+    second: Chain-Detected---Still_17
+  - first:
+      213: 7613013902410209516
+    second: Chain-Detected---Still_18
+  - first:
+      213: 1148966219638382198
+    second: Chain-Detected---Still_19
+  - first:
+      213: -8609161910237607023
+    second: Chain-Detected---Still_20
+  - first:
+      213: -5411272612725433889
+    second: Chain-Detected---Still_21
+  - first:
+      213: -3719361025808026724
+    second: Chain-Detected---Still_22
+  - first:
+      213: -3259338413414444707
+    second: Chain-Detected---Still_23
+  - first:
+      213: 4960525300545944020
+    second: Chain-Detected---Still_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chain-Detected---Still_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 346
+        width: 143
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86f780205802bcc0800000000000000
+      internalID: -3696883203881568628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 347
+        width: 147
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5980b00ab0330fa0800000000000000
+      internalID: -5835767116708411042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 347
+        width: 192
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ca4d68755e62210800000000000000
+      internalID: 1307984905884707881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_3
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 436
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058f294c3e7dacfa0800000000000000
+      internalID: -5779569798521096112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_4
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 348
+        width: 161
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63287e55867d8a670800000000000000
+      internalID: 8550320735680692790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 343
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcf53dfb49164aa0800000000000000
+      internalID: -6177222024730641195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 318
+        width: 782
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366053d7fa5fa8010800000000000000
+      internalID: 1192035185461626467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64829772c2869f410800000000000000
+      internalID: 1511353688809613382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0961515ec3c87120800000000000000
+      internalID: 2411892891351869711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1424e65847ab230800000000000000
+      internalID: 3655362163993887184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_10
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 325
+        width: 100
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19302f19651484e00800000000000000
+      internalID: 1029144354925708177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 218
+        width: 118
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895ec1bfacf658540800000000000000
+      internalID: 5009533078106596760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 222
+        width: 108
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9e28fd5edb36b20800000000000000
+      internalID: 3126551361320315390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 222
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd9fe60cc6b5d460800000000000000
+      internalID: 7265914561238113736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 223
+        width: 107
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0905b6005eefc6fa0800000000000000
+      internalID: -5805985560079413104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_15
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 222
+        width: 105
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7958e81744a693d80800000000000000
+      internalID: -8270462398493719145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_16
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 224
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4813205336a2a2200800000000000000
+      internalID: 155983742677168516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_17
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 225
+        width: 108
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762094636530a63b0800000000000000
+      internalID: -5518594724576296345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_18
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 225
+        width: 106
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8554b0fcbd6a960800000000000000
+      internalID: 7613013902410209516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 201
+        width: 269
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e187470b2f1ff00800000000000000
+      internalID: 1148966219638382198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_20
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 188
+        width: 192
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bc67e1bdc168880800000000000000
+      internalID: -8609161910237607023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_21
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 202
+        width: 232
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd953b79a3c47e4b0800000000000000
+      internalID: -5411272612725433889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_22
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 198
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93b7416adc226cc0800000000000000
+      internalID: -3719361025808026724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_23
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 198
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5195a15bf084c2d0800000000000000
+      internalID: -3259338413414444707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain-Detected---Still_24
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 198
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9f0669a7357d440800000000000000
+      internalID: 4960525300545944020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chain-Detected---Still_0: -3696883203881568628
+      Chain-Detected---Still_1: -5835767116708411042
+      Chain-Detected---Still_10: 1029144354925708177
+      Chain-Detected---Still_11: 5009533078106596760
+      Chain-Detected---Still_12: 3126551361320315390
+      Chain-Detected---Still_13: 7265914561238113736
+      Chain-Detected---Still_14: -5805985560079413104
+      Chain-Detected---Still_15: -8270462398493719145
+      Chain-Detected---Still_16: 155983742677168516
+      Chain-Detected---Still_17: -5518594724576296345
+      Chain-Detected---Still_18: 7613013902410209516
+      Chain-Detected---Still_19: 1148966219638382198
+      Chain-Detected---Still_2: 1307984905884707881
+      Chain-Detected---Still_20: -8609161910237607023
+      Chain-Detected---Still_21: -5411272612725433889
+      Chain-Detected---Still_22: -3719361025808026724
+      Chain-Detected---Still_23: -3259338413414444707
+      Chain-Detected---Still_24: 4960525300545944020
+      Chain-Detected---Still_3: -5779569798521096112
+      Chain-Detected---Still_4: 8550320735680692790
+      Chain-Detected---Still_5: -6177222024730641195
+      Chain-Detected---Still_6: 1192035185461626467
+      Chain-Detected---Still_7: 1511353688809613382
+      Chain-Detected---Still_8: 2411892891351869711
+      Chain-Detected---Still_9: 3655362163993887184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

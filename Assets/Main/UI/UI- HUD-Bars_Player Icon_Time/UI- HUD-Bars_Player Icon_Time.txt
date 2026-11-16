@@ -1,0 +1,25 @@
+Health & Ripp Bar visual points in the form of text you may have to input in unity 
+as it will have to frequently change.
+FONT- Bieksa
+fx- Stroke-black- 1px
+
+Score/Points- yellow number display to the top right of player icon will have to input 
+in Unity because this number frequently changes. 
+FONT- AGENCY FB 
+color# f9eb90
+fx- Stroke-black- 2px
+
+"HP" 
+FONT-Bieksa
+Fx- Stroke-black- 2px
+
+"Ripp"
+FONT- Bieksa
+Fx- Stroke-black- 2px
+
+"Time" 
+FONT- Agency FB
+color# f9eb90
+
+"0:00"(Time display)
+FONT- Agency FB

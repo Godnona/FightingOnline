@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 9a5d3a6e2503df540a395d26a7750f7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6176525418249047544
+    second: Xandros Wins - Layout example_0
+  - first:
+      213: -4598976060727158773
+    second: Xandros Wins - Layout example_1
+  - first:
+      213: 4807934970532490343
+    second: Xandros Wins - Layout example_2
+  - first:
+      213: -4705391140067219791
+    second: Xandros Wins - Layout example_3
+  - first:
+      213: 8423774158372825237
+    second: Xandros Wins - Layout example_4
+  - first:
+      213: -7555145690866422653
+    second: Xandros Wins - Layout example_5
+  - first:
+      213: -9048545297869491027
+    second: Xandros Wins - Layout example_6
+  - first:
+      213: 3576546638400504979
+    second: Xandros Wins - Layout example_7
+  - first:
+      213: -682129738407898083
+    second: Xandros Wins - Layout example_8
+  - first:
+      213: 1789641047508519697
+    second: Xandros Wins - Layout example_9
+  - first:
+      213: 6891982819265909131
+    second: Xandros Wins - Layout example_10
+  - first:
+      213: -7103260795226388220
+    second: Xandros Wins - Layout example_11
+  - first:
+      213: -4686993791034962751
+    second: Xandros Wins - Layout example_12
+  - first:
+      213: 8197949612100388389
+    second: Xandros Wins - Layout example_13
+  - first:
+      213: 375572331789387184
+    second: Xandros Wins - Layout example_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_0
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 773
+        width: 740
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdc7eca42d67b550800000000000000
+      internalID: 6176525418249047544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_1
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 844
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0815d1a3a72d20c0800000000000000
+      internalID: -4598976060727158773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_2
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 833
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c64c5d16739b240800000000000000
+      internalID: 4807934970532490343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_3
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 772
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6e50730b713beb0800000000000000
+      internalID: -4705391140067219791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 716
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5986de947f147e470800000000000000
+      internalID: 8423774158372825237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 489
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c6595e50bb62790800000000000000
+      internalID: -7555145690866422653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 236
+        width: 641
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4357a2efb1d6280800000000000000
+      internalID: -9048545297869491027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_7
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 464
+        width: 542
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394ca70e73272a130800000000000000
+      internalID: 3576546638400504979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 213
+        width: 579
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d149773fd969886f0800000000000000
+      internalID: -682129738407898083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_9
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 451
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b04300d0516d810800000000000000
+      internalID: 1789641047508519697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_10
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 402
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81907cdbdd35af50800000000000000
+      internalID: 6891982819265909131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_11
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 378
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409829101f52c6d90800000000000000
+      internalID: -7103260795226388220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_12
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 217
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc46e4daf374feb0800000000000000
+      internalID: -4686993791034962751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 54
+        width: 501
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5268bc3dcb7f4c170800000000000000
+      internalID: 8197949612100388389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xandros Wins - Layout example_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 58
+        width: 545
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b585cfbb0d463500800000000000000
+      internalID: 375572331789387184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Xandros Wins - Layout example_0: 6176525418249047544
+      Xandros Wins - Layout example_1: -4598976060727158773
+      Xandros Wins - Layout example_10: 6891982819265909131
+      Xandros Wins - Layout example_11: -7103260795226388220
+      Xandros Wins - Layout example_12: -4686993791034962751
+      Xandros Wins - Layout example_13: 8197949612100388389
+      Xandros Wins - Layout example_14: 375572331789387184
+      Xandros Wins - Layout example_2: 4807934970532490343
+      Xandros Wins - Layout example_3: -4705391140067219791
+      Xandros Wins - Layout example_4: 8423774158372825237
+      Xandros Wins - Layout example_5: -7555145690866422653
+      Xandros Wins - Layout example_6: -9048545297869491027
+      Xandros Wins - Layout example_7: 3576546638400504979
+      Xandros Wins - Layout example_8: -682129738407898083
+      Xandros Wins - Layout example_9: 1789641047508519697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
