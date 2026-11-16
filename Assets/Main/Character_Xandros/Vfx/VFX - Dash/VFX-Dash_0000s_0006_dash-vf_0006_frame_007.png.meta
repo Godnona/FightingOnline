@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 2b0faaa9459920b4ca0be52c0e889f1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4051587435121942978
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_0
+  - first:
+      213: -1692261710364646110
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_1
+  - first:
+      213: -9082760399318134163
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_2
+  - first:
+      213: -4568077138348519314
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_3
+  - first:
+      213: -2862627605963314347
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_4
+  - first:
+      213: 1183354553682910505
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_5
+  - first:
+      213: 9077944825542198767
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_6
+  - first:
+      213: 3009121899359160097
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_7
+  - first:
+      213: -1924463962808948759
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_8
+  - first:
+      213: 5266368568148151835
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_9
+  - first:
+      213: -3183725777609383278
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_10
+  - first:
+      213: -6809019264349391892
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_11
+  - first:
+      213: -6908683232766626694
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_12
+  - first:
+      213: 438380334873825138
+    second: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_0
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 588
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ede19a1bed5c7c0800000000000000
+      internalID: -4051587435121942978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 543
+        width: 184
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22568beb0f0e388e0800000000000000
+      internalID: -1692261710364646110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 458
+        width: 680
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6258a21a8d83f180800000000000000
+      internalID: -9082760399318134163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 567
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60572e9b0eea90c0800000000000000
+      internalID: -4568077138348519314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 567
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b6456fb57e548d0800000000000000
+      internalID: -2862627605963314347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 567
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d5c9762be1c6010800000000000000
+      internalID: 1183354553682910505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 567
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5c909c8b65bfd70800000000000000
+      internalID: 9077944825542198767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_7
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 567
+        width: 73
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127c629ac6c82c920800000000000000
+      internalID: 3009121899359160097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 525
+        width: 151
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e76bb9d83eea45e0800000000000000
+      internalID: -1924463962808948759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 437
+        width: 192
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ec0c07f46e51940800000000000000
+      internalID: 5266368568148151835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 444
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a65bf54221d3d0800000000000000
+      internalID: -3183725777609383278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 431
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3b9a70e018181a0800000000000000
+      internalID: -6809019264349391892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 189
+        width: 757
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a747f3d143d6f10a0800000000000000
+      internalID: -6908683232766626694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Dash_0000s_0006_dash-vf_0006_frame_007_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 243
+        width: 534
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fcba88790751600800000000000000
+      internalID: 438380334873825138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_0: -4051587435121942978
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_1: -1692261710364646110
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_10: -3183725777609383278
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_11: -6809019264349391892
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_12: -6908683232766626694
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_13: 438380334873825138
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_2: -9082760399318134163
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_3: -4568077138348519314
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_4: -2862627605963314347
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_5: 1183354553682910505
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_6: 9077944825542198767
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_7: 3009121899359160097
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_8: -1924463962808948759
+      VFX-Dash_0000s_0006_dash-vf_0006_frame_007_9: 5266368568148151835
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 16fb43a864d187145b6ff2914bd87fad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2931742057599844976
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_0
+  - first:
+      213: 420860309293212712
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_1
+  - first:
+      213: 9195284402880620027
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_2
+  - first:
+      213: -4326206061246590106
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_3
+  - first:
+      213: -4369059889506766866
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_4
+  - first:
+      213: -8631427460059443831
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_5
+  - first:
+      213: -2808087212753833090
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_6
+  - first:
+      213: -8989948539399914189
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_7
+  - first:
+      213: 8581917413488956156
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_8
+  - first:
+      213: -9213757163119916483
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_9
+  - first:
+      213: -1021867257157397453
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_10
+  - first:
+      213: 1395146360351126696
+    second: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 497
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d30b3b12c5057d0800000000000000
+      internalID: -2931742057599844976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 513
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824ab73b83237d500800000000000000
+      internalID: 420860309293212712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 503
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5a36a12763c9f70800000000000000
+      internalID: 9195284402880620027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 456
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663514e228a36f3c0800000000000000
+      internalID: -4326206061246590106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 483
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefaa83cd2bfd53c0800000000000000
+      internalID: -4369059889506766866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 464
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dca92d472073880800000000000000
+      internalID: -8631427460059443831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 422
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73bd71de8ba709d0800000000000000
+      internalID: -2808087212753833090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 448
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33db6082f694d3380800000000000000
+      internalID: -8989948539399914189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf29fba2b68191770800000000000000
+      internalID: 8581917413488956156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ac68d3da8222080800000000000000
+      internalID: -9213757163119916483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334d789c42991d1f0800000000000000
+      internalID: -1021867257157397453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a47862193e8c5310800000000000000
+      internalID: 1395146360351126696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_0: -2931742057599844976
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_1: 420860309293212712
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_10: -1021867257157397453
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_11: 1395146360351126696
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_2: 9195284402880620027
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_3: -4326206061246590106
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_4: -4369059889506766866
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_5: -8631427460059443831
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_6: -2808087212753833090
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_7: -8989948539399914189
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_8: 8581917413488956156
+      VFX--Wall-grab_0000s_0005_frame_05_delay-0.03s_9: -9213757163119916483
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

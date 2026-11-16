@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: bb892cda053c32f44bb7b22a6b456f83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1762034524038919850
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_0
+  - first:
+      213: -657548595352698092
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_1
+  - first:
+      213: -5826863427089715587
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_2
+  - first:
+      213: 7706676434845508542
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_3
+  - first:
+      213: 4695307885955688474
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_4
+  - first:
+      213: 49568968580472672
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_5
+  - first:
+      213: 3634917457889525880
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_6
+  - first:
+      213: 877438020520286717
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_7
+  - first:
+      213: -360286463558966174
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_8
+  - first:
+      213: -7196932582691748352
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_9
+  - first:
+      213: -7626029350787470671
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_10
+  - first:
+      213: 6717524118777889665
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_11
+  - first:
+      213: 1239528830903493494
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_12
+  - first:
+      213: -5334094998707656698
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_13
+  - first:
+      213: 5881167407599447954
+    second: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 233
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6598fa0afeefb87e0800000000000000
+      internalID: -1762034524038919850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 214
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413027f490befd6f0800000000000000
+      internalID: -657548595352698092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e2a99c592d22fa0800000000000000
+      internalID: -5826863427089715587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 196
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb327d1c26d93fa60800000000000000
+      internalID: 7706676434845508542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 173
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18aa7d35a5192140800000000000000
+      internalID: 4695307885955688474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 172
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f1f1cd6ba10b000800000000000000
+      internalID: 49568968580472672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 181
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8700f595b22d17230800000000000000
+      internalID: 3634917457889525880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 169
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df998851b394d2c00800000000000000
+      internalID: 877438020520286717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 165
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264af2ace51000bf0800000000000000
+      internalID: -360286463558966174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006493072fb5f1c90800000000000000
+      internalID: -7196932582691748352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba2c9bb5b6ea2690800000000000000
+      internalID: -7626029350787470671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18300e55890793d50800000000000000
+      internalID: 6717524118777889665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 128
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673abd687e0b33110800000000000000
+      internalID: 1239528830903493494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 132
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608a7d32cdc79f5b0800000000000000
+      internalID: -5334094998707656698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 123
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fe192f89a1e9150800000000000000
+      internalID: 5881167407599447954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_0: -1762034524038919850
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_1: -657548595352698092
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_10: -7626029350787470671
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_11: 6717524118777889665
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_12: 1239528830903493494
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_13: -5334094998707656698
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_14: 5881167407599447954
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_2: -5826863427089715587
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_3: 7706676434845508542
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_4: 4695307885955688474
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_5: 49568968580472672
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_6: 3634917457889525880
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_7: 877438020520286717
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_8: -360286463558966174
+      VFX-Jump-off-wall_0000s_0006_frame_06_delay-0.03s_9: -7196932582691748352
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

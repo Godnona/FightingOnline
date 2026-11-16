@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 2f8ae7e2109874f4ca078c279e528c3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9056066292478313260
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_0
+  - first:
+      213: 2271800047853412886
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_1
+  - first:
+      213: -3133300109180320387
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_2
+  - first:
+      213: 4814159188486929768
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_3
+  - first:
+      213: -6450402705063355748
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_4
+  - first:
+      213: -2873378468636089887
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_5
+  - first:
+      213: 1528629930123683512
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_6
+  - first:
+      213: -2028580981875935310
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_7
+  - first:
+      213: -7026131626138433545
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_8
+  - first:
+      213: -4488613919707556714
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_9
+  - first:
+      213: 2906570398108558328
+    second: Fight-Start---3_0011_frame_11_delay-0.09s_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 353
+        width: 411
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c230f89df4c9dad70800000000000000
+      internalID: 9056066292478313260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 479
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612a4056b1e078f10800000000000000
+      internalID: 2271800047853412886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 371
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d754d91d6284484d0800000000000000
+      internalID: -3133300109180320387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 362
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d32f186445fc240800000000000000
+      internalID: 4814159188486929768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 371
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ada7a5ae09b76a0800000000000000
+      internalID: -6450402705063355748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_5
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 366
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1a0bfa185bf18d0800000000000000
+      internalID: -2873378468636089887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_6
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 345
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b66d0a82d8c63510800000000000000
+      internalID: 1528629930123683512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_7
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 355
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7fb29485809d3e0800000000000000
+      internalID: -2028580981875935310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_8
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 356
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f781e6138a2e7e90800000000000000
+      internalID: -7026131626138433545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_9
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69415f5fb6d35b1c0800000000000000
+      internalID: -4488613919707556714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fight-Start---3_0011_frame_11_delay-0.09s_10
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 345
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f32ded9066365820800000000000000
+      internalID: 2906570398108558328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fight-Start---3_0011_frame_11_delay-0.09s_0: 9056066292478313260
+      Fight-Start---3_0011_frame_11_delay-0.09s_1: 2271800047853412886
+      Fight-Start---3_0011_frame_11_delay-0.09s_10: 2906570398108558328
+      Fight-Start---3_0011_frame_11_delay-0.09s_2: -3133300109180320387
+      Fight-Start---3_0011_frame_11_delay-0.09s_3: 4814159188486929768
+      Fight-Start---3_0011_frame_11_delay-0.09s_4: -6450402705063355748
+      Fight-Start---3_0011_frame_11_delay-0.09s_5: -2873378468636089887
+      Fight-Start---3_0011_frame_11_delay-0.09s_6: 1528629930123683512
+      Fight-Start---3_0011_frame_11_delay-0.09s_7: -2028580981875935310
+      Fight-Start---3_0011_frame_11_delay-0.09s_8: -7026131626138433545
+      Fight-Start---3_0011_frame_11_delay-0.09s_9: -4488613919707556714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

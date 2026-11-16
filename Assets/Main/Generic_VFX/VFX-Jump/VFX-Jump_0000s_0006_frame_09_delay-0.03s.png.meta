@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: b086a6f337cf84c4aa7e4d95a486e743
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4630357676400275874
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_0
+  - first:
+      213: 1472743123623763089
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_1
+  - first:
+      213: -4157653928009619010
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_2
+  - first:
+      213: 5278781752930963190
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_3
+  - first:
+      213: 461772119614112761
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_4
+  - first:
+      213: -2240791633368072012
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_5
+  - first:
+      213: -3296941503972903195
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_6
+  - first:
+      213: 5726887544368123980
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_7
+  - first:
+      213: 3585083344269362980
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_8
+  - first:
+      213: -1915062465443120741
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_9
+  - first:
+      213: -680677816488917375
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_10
+  - first:
+      213: -2644221634619518513
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_11
+  - first:
+      213: -7942120201246832524
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_12
+  - first:
+      213: -2485596947356655483
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_13
+  - first:
+      213: 7637610079033109004
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_14
+  - first:
+      213: 6134833438759173011
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_15
+  - first:
+      213: -5254138661968541637
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_16
+  - first:
+      213: -8036576014932461659
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_17
+  - first:
+      213: 2804227884575165612
+    second: VFX-Jump_0000s_0006_frame_09_delay-0.03s_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 135
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a177d426c5524040800000000000000
+      internalID: 4630357676400275874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c5ef8611c307410800000000000000
+      internalID: 1472743123623763089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9aaf9d7cb0d46c0800000000000000
+      internalID: -4157653928009619010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 138
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe834e3900024940800000000000000
+      internalID: 5278781752930963190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 93
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f347c4db4b886600800000000000000
+      internalID: 461772119614112761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 98
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0cd65b1eb17e0e0800000000000000
+      internalID: -2240791633368072012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 118
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6f37a8b29ee32d0800000000000000
+      internalID: -3296941503972903195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 83
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40dba611edf97f40800000000000000
+      internalID: 5726887544368123980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42748599e46c0c130800000000000000
+      internalID: 3585083344269362980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 60
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99349885d45c65e0800000000000000
+      internalID: -1915062465443120741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 62
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18680bdd12fbd86f0800000000000000
+      internalID: -680677816488917375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1d919de66dd4bd0800000000000000
+      internalID: -2644221634619518513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4788a3191cbe7c190800000000000000
+      internalID: -7942120201246832524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580e202eeb2618dd0800000000000000
+      internalID: -2485596947356655483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a26bda6ed3ef960800000000000000
+      internalID: 7637610079033109004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bbd61428e432550800000000000000
+      internalID: 6134833438759173011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 41
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3808bc79bc8517b0800000000000000
+      internalID: -5254138661968541637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 21
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7b68ba1b8587090800000000000000
+      internalID: -8036576014932461659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX-Jump_0000s_0006_frame_09_delay-0.03s_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac0951576e9ae620800000000000000
+      internalID: 2804227884575165612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_0: 4630357676400275874
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_1: 1472743123623763089
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_10: -680677816488917375
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_11: -2644221634619518513
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_12: -7942120201246832524
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_13: -2485596947356655483
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_14: 7637610079033109004
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_15: 6134833438759173011
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_16: -5254138661968541637
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_17: -8036576014932461659
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_18: 2804227884575165612
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_2: -4157653928009619010
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_3: 5278781752930963190
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_4: 461772119614112761
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_5: -2240791633368072012
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_6: -3296941503972903195
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_7: 5726887544368123980
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_8: 3585083344269362980
+      VFX-Jump_0000s_0006_frame_09_delay-0.03s_9: -1915062465443120741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
