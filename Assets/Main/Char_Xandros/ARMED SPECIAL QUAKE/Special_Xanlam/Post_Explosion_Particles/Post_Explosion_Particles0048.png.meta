@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 29a3fd23f1141c948988276069c6a226
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4031517485135543987
+    second: Post_Explosion_Particles0048_0
+  - first:
+      213: -4821848257834623549
+    second: Post_Explosion_Particles0048_1
+  - first:
+      213: 9090073105791529827
+    second: Post_Explosion_Particles0048_2
+  - first:
+      213: -2212692732649807158
+    second: Post_Explosion_Particles0048_3
+  - first:
+      213: -3780521912695537855
+    second: Post_Explosion_Particles0048_4
+  - first:
+      213: -9013028281557786603
+    second: Post_Explosion_Particles0048_5
+  - first:
+      213: 7136113094708093526
+    second: Post_Explosion_Particles0048_6
+  - first:
+      213: 2732444971184579937
+    second: Post_Explosion_Particles0048_7
+  - first:
+      213: -1089198080521460343
+    second: Post_Explosion_Particles0048_8
+  - first:
+      213: 3042600273770276515
+    second: Post_Explosion_Particles0048_9
+  - first:
+      213: 6731764509372979801
+    second: Post_Explosion_Particles0048_10
+  - first:
+      213: -7063062044369062227
+    second: Post_Explosion_Particles0048_11
+  - first:
+      213: -3857574933490802274
+    second: Post_Explosion_Particles0048_12
+  - first:
+      213: 3914762733327845817
+    second: Post_Explosion_Particles0048_13
+  - first:
+      213: 5366949895786783421
+    second: Post_Explosion_Particles0048_14
+  - first:
+      213: -5616004117545165424
+    second: Post_Explosion_Particles0048_15
+  - first:
+      213: 1756622027035064450
+    second: Post_Explosion_Particles0048_16
+  - first:
+      213: 8962106490383387789
+    second: Post_Explosion_Particles0048_17
+  - first:
+      213: 4203106222005260362
+    second: Post_Explosion_Particles0048_18
+  - first:
+      213: -8207626089045687702
+    second: Post_Explosion_Particles0048_19
+  - first:
+      213: 5535968757043440610
+    second: Post_Explosion_Particles0048_20
+  - first:
+      213: 6474890177613589492
+    second: Post_Explosion_Particles0048_21
+  - first:
+      213: -3110978376106848960
+    second: Post_Explosion_Particles0048_22
+  - first:
+      213: 4433450608900239818
+    second: Post_Explosion_Particles0048_23
+  - first:
+      213: 4212138770526816636
+    second: Post_Explosion_Particles0048_24
+  - first:
+      213: -410256810200803202
+    second: Post_Explosion_Particles0048_25
+  - first:
+      213: 2391497620710337500
+    second: Post_Explosion_Particles0048_26
+  - first:
+      213: -2756282617428104747
+    second: Post_Explosion_Particles0048_27
+  - first:
+      213: -2656493050637681391
+    second: Post_Explosion_Particles0048_28
+  - first:
+      213: 1996262252812867886
+    second: Post_Explosion_Particles0048_29
+  - first:
+      213: 5674608510688210349
+    second: Post_Explosion_Particles0048_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_0
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1012
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4148b8053c2d08c0800000000000000
+      internalID: -4031517485135543987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_1
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1015
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5ee68e8a551db0800000000000000
+      internalID: -4821848257834623549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_2
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1035
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3633905145d662e70800000000000000
+      internalID: 9090073105791529827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_3
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1017
+        width: 8
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e159deafea41e0800000000000000
+      internalID: -2212692732649807158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 975
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fb338b953e88bc0800000000000000
+      internalID: -3780521912695537855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_5
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 944
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510e23fe78a4be280800000000000000
+      internalID: -9013028281557786603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_6
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 969
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652e6170d01980360800000000000000
+      internalID: 7136113094708093526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_7
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 943
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16562c369389be520800000000000000
+      internalID: 2732444971184579937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_8
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 926
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9852b78dd1462e0f0800000000000000
+      internalID: -1089198080521460343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_9
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 750
+        width: 123
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6659f14dc793a20800000000000000
+      internalID: 3042600273770276515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_10
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 899
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a12c4a7280c6d50800000000000000
+      internalID: 6731764509372979801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_11
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 728
+        width: 206
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da676da0e76fafd90800000000000000
+      internalID: -7063062044369062227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_12
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 847
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9164da4904277ac0800000000000000
+      internalID: -3857574933490802274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_13
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 832
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b981f3f6f7045630800000000000000
+      internalID: 3914762733327845817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_14
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 808
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2e0b1be7c3b7a40800000000000000
+      internalID: 5366949895786783421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_15
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 156
+        width: 775
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dd69c8202ff02b0800000000000000
+      internalID: -5616004117545165424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_16
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 764
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2883d063d66c06810800000000000000
+      internalID: 1756622027035064450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_17
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 660
+        width: 73
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c4686ae5ccf5c70800000000000000
+      internalID: 8962106490383387789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_18
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 708
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a409bd307de645a30800000000000000
+      internalID: 4203106222005260362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_19
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 624
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a620431de87a81e80800000000000000
+      internalID: -8207626089045687702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_20
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 588
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb2c33f046b3dc40800000000000000
+      internalID: 5535968757043440610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 523
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe254af4e6bd950800000000000000
+      internalID: 6474890177613589492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_22
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 522
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dca3c46a593d4d0800000000000000
+      internalID: -3110978376106848960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_23
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 508
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1fcb0e6d7c68d30800000000000000
+      internalID: 4433450608900239818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_24
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 494
+        width: 11
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79c6e915e5847a30800000000000000
+      internalID: 4212138770526816636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_25
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 571
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78db41da997e4af0800000000000000
+      internalID: -410256810200803202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_26
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 528
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdba1a35a6e403120800000000000000
+      internalID: 2391497620710337500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 493
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d92d971097bfb9d0800000000000000
+      internalID: -2756282617428104747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_28
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 431
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d727825ad322bd0800000000000000
+      internalID: -2656493050637681391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_29
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 348
+        width: 32
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e299e6931f524bb10800000000000000
+      internalID: 1996262252812867886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post_Explosion_Particles0048_30
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 394
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadaaf6006240ce40800000000000000
+      internalID: 5674608510688210349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Post_Explosion_Particles0048_0: -4031517485135543987
+      Post_Explosion_Particles0048_1: -4821848257834623549
+      Post_Explosion_Particles0048_10: 6731764509372979801
+      Post_Explosion_Particles0048_11: -7063062044369062227
+      Post_Explosion_Particles0048_12: -3857574933490802274
+      Post_Explosion_Particles0048_13: 3914762733327845817
+      Post_Explosion_Particles0048_14: 5366949895786783421
+      Post_Explosion_Particles0048_15: -5616004117545165424
+      Post_Explosion_Particles0048_16: 1756622027035064450
+      Post_Explosion_Particles0048_17: 8962106490383387789
+      Post_Explosion_Particles0048_18: 4203106222005260362
+      Post_Explosion_Particles0048_19: -8207626089045687702
+      Post_Explosion_Particles0048_2: 9090073105791529827
+      Post_Explosion_Particles0048_20: 5535968757043440610
+      Post_Explosion_Particles0048_21: 6474890177613589492
+      Post_Explosion_Particles0048_22: -3110978376106848960
+      Post_Explosion_Particles0048_23: 4433450608900239818
+      Post_Explosion_Particles0048_24: 4212138770526816636
+      Post_Explosion_Particles0048_25: -410256810200803202
+      Post_Explosion_Particles0048_26: 2391497620710337500
+      Post_Explosion_Particles0048_27: -2756282617428104747
+      Post_Explosion_Particles0048_28: -2656493050637681391
+      Post_Explosion_Particles0048_29: 1996262252812867886
+      Post_Explosion_Particles0048_3: -2212692732649807158
+      Post_Explosion_Particles0048_30: 5674608510688210349
+      Post_Explosion_Particles0048_4: -3780521912695537855
+      Post_Explosion_Particles0048_5: -9013028281557786603
+      Post_Explosion_Particles0048_6: 7136113094708093526
+      Post_Explosion_Particles0048_7: 2732444971184579937
+      Post_Explosion_Particles0048_8: -1089198080521460343
+      Post_Explosion_Particles0048_9: 3042600273770276515
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
