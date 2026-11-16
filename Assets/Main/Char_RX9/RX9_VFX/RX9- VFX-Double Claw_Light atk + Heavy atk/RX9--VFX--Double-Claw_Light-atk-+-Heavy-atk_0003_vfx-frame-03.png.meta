@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: daac3b72e17f50a42978040f7832c26b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1835951482322222705
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_0
+  - first:
+      213: 308069588280882852
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_1
+  - first:
+      213: -31899845744006257
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_2
+  - first:
+      213: 1323305373301990530
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_3
+  - first:
+      213: -6672270499284100634
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_4
+  - first:
+      213: 2398746422701974178
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_5
+  - first:
+      213: -436069234568968778
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_6
+  - first:
+      213: -5027974506115162199
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_7
+  - first:
+      213: -6336603711435518400
+    second: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_0
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 452
+        width: 249
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f810557aad36586e0800000000000000
+      internalID: -1835951482322222705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 500
+        width: 208
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6359788ab764400800000000000000
+      internalID: 308069588280882852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_2
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 518
+        width: 207
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8be902624bae8ff0800000000000000
+      internalID: -31899845744006257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 482
+        width: 207
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284e701d9335d5210800000000000000
+      internalID: 1323305373301990530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_4
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 403
+        width: 132
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e95ad405555763a0800000000000000
+      internalID: -6672270499284100634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_5
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 372
+        width: 131
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2e36f892f0a4120800000000000000
+      internalID: 2398746422701974178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 372
+        width: 132
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b54a007755c2f9f0800000000000000
+      internalID: -436069234568968778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_7
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 377
+        width: 249
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af194773db093ab0800000000000000
+      internalID: -5027974506115162199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_8
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 393
+        width: 248
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ec6794f7cdf08a0800000000000000
+      internalID: -6336603711435518400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_0: -1835951482322222705
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_1: 308069588280882852
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_2: -31899845744006257
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_3: 1323305373301990530
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_4: -6672270499284100634
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_5: 2398746422701974178
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_6: -436069234568968778
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_7: -5027974506115162199
+      RX9--VFX--Double-Claw_Light-atk-+-Heavy-atk_0003_vfx-frame-03_8: -6336603711435518400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

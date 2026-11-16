@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: c5a13dbbd8942294a9090789c1c16410
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2961353700581925239
+    second: RX9--Knock-off-screen_0008_frame_08_0
+  - first:
+      213: 1413014239211017953
+    second: RX9--Knock-off-screen_0008_frame_08_1
+  - first:
+      213: 7767099698001042068
+    second: RX9--Knock-off-screen_0008_frame_08_2
+  - first:
+      213: 3622425682490854658
+    second: RX9--Knock-off-screen_0008_frame_08_3
+  - first:
+      213: 3829827808271190985
+    second: RX9--Knock-off-screen_0008_frame_08_4
+  - first:
+      213: -2463934675053330348
+    second: RX9--Knock-off-screen_0008_frame_08_5
+  - first:
+      213: -9090541537137647873
+    second: RX9--Knock-off-screen_0008_frame_08_6
+  - first:
+      213: 6406149835912226128
+    second: RX9--Knock-off-screen_0008_frame_08_7
+  - first:
+      213: 6855622131428350813
+    second: RX9--Knock-off-screen_0008_frame_08_8
+  - first:
+      213: 8553783333179630190
+    second: RX9--Knock-off-screen_0008_frame_08_9
+  - first:
+      213: 2204422303509077571
+    second: RX9--Knock-off-screen_0008_frame_08_10
+  - first:
+      213: 84455465298488342
+    second: RX9--Knock-off-screen_0008_frame_08_11
+  - first:
+      213: 7035656189648031032
+    second: RX9--Knock-off-screen_0008_frame_08_12
+  - first:
+      213: 9069039043868562038
+    second: RX9--Knock-off-screen_0008_frame_08_13
+  - first:
+      213: -4217760999210794029
+    second: RX9--Knock-off-screen_0008_frame_08_14
+  - first:
+      213: 6788418582220194863
+    second: RX9--Knock-off-screen_0008_frame_08_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_0
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 673
+        width: 373
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e968ecf7827e6d0800000000000000
+      internalID: -2961353700581925239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_1
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 652
+        width: 311
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6ddbec6f80c9310800000000000000
+      internalID: 1413014239211017953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 682
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a556206084acb60800000000000000
+      internalID: 7767099698001042068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 178
+        width: 891
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d8e1e37f0754230800000000000000
+      internalID: 3622425682490854658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_4
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 643
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbcaeea918462530800000000000000
+      internalID: 3829827808271190985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_5
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 643
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450cdafa7785ecdd0800000000000000
+      internalID: -2463934675053330348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_6
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 634
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe1afeb2a8e7d180800000000000000
+      internalID: -9090541537137647873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_7
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 639
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055a973a55737e850800000000000000
+      internalID: 6406149835912226128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 632
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bd7128100142f50800000000000000
+      internalID: 6855622131428350813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_9
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 631
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6224d32f9425b670800000000000000
+      internalID: 8553783333179630190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_10
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 176
+        width: 287
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e5b9fc76ea79e10800000000000000
+      internalID: 2204422303509077571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_11
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 185
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ce4785ccb0c2100800000000000000
+      internalID: 84455465298488342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_12
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 169
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dcfb9270ca3a160800000000000000
+      internalID: 7035656189648031032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_13
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 143
+        width: 229
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6721fe7e5f2bbdd70800000000000000
+      internalID: 9069039043868562038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_14
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 149
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d34b86c7b08775c0800000000000000
+      internalID: -4217760999210794029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RX9--Knock-off-screen_0008_frame_08_15
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 155
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2445e3ebbe453e50800000000000000
+      internalID: 6788418582220194863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RX9--Knock-off-screen_0008_frame_08_0: -2961353700581925239
+      RX9--Knock-off-screen_0008_frame_08_1: 1413014239211017953
+      RX9--Knock-off-screen_0008_frame_08_10: 2204422303509077571
+      RX9--Knock-off-screen_0008_frame_08_11: 84455465298488342
+      RX9--Knock-off-screen_0008_frame_08_12: 7035656189648031032
+      RX9--Knock-off-screen_0008_frame_08_13: 9069039043868562038
+      RX9--Knock-off-screen_0008_frame_08_14: -4217760999210794029
+      RX9--Knock-off-screen_0008_frame_08_15: 6788418582220194863
+      RX9--Knock-off-screen_0008_frame_08_2: 7767099698001042068
+      RX9--Knock-off-screen_0008_frame_08_3: 3622425682490854658
+      RX9--Knock-off-screen_0008_frame_08_4: 3829827808271190985
+      RX9--Knock-off-screen_0008_frame_08_5: -2463934675053330348
+      RX9--Knock-off-screen_0008_frame_08_6: -9090541537137647873
+      RX9--Knock-off-screen_0008_frame_08_7: 6406149835912226128
+      RX9--Knock-off-screen_0008_frame_08_8: 6855622131428350813
+      RX9--Knock-off-screen_0008_frame_08_9: 8553783333179630190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

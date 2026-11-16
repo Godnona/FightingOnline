@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: b96d5eb6e19bfd949964d686041e52f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -504488231398997951
+    second: ARMED SPECIAL QUAKE_0013_0
+  - first:
+      213: -5151722530775183644
+    second: ARMED SPECIAL QUAKE_0013_1
+  - first:
+      213: 6228353007163503407
+    second: ARMED SPECIAL QUAKE_0013_2
+  - first:
+      213: 9092987597636164675
+    second: ARMED SPECIAL QUAKE_0013_3
+  - first:
+      213: -3254838767514073971
+    second: ARMED SPECIAL QUAKE_0013_4
+  - first:
+      213: -6649068011587479535
+    second: ARMED SPECIAL QUAKE_0013_5
+  - first:
+      213: -1908953002284105943
+    second: ARMED SPECIAL QUAKE_0013_6
+  - first:
+      213: 7986259617198504779
+    second: ARMED SPECIAL QUAKE_0013_7
+  - first:
+      213: 5653311006069623990
+    second: ARMED SPECIAL QUAKE_0013_8
+  - first:
+      213: 3126377128869910879
+    second: ARMED SPECIAL QUAKE_0013_9
+  - first:
+      213: -8018608466860536891
+    second: ARMED SPECIAL QUAKE_0013_10
+  - first:
+      213: -3252637355944309517
+    second: ARMED SPECIAL QUAKE_0013_11
+  - first:
+      213: -7632531790898430425
+    second: ARMED SPECIAL QUAKE_0013_12
+  - first:
+      213: 8820165235951037954
+    second: ARMED SPECIAL QUAKE_0013_13
+  - first:
+      213: 603867427414401927
+    second: ARMED SPECIAL QUAKE_0013_14
+  - first:
+      213: 3741672213756142805
+    second: ARMED SPECIAL QUAKE_0013_15
+  - first:
+      213: 7978620780366797263
+    second: ARMED SPECIAL QUAKE_0013_16
+  - first:
+      213: -5664622869843858412
+    second: ARMED SPECIAL QUAKE_0013_17
+  - first:
+      213: -6064702904510510737
+    second: ARMED SPECIAL QUAKE_0013_18
+  - first:
+      213: -4949135914186937119
+    second: ARMED SPECIAL QUAKE_0013_19
+  - first:
+      213: 3861863547909371496
+    second: ARMED SPECIAL QUAKE_0013_20
+  - first:
+      213: -9136080745774692389
+    second: ARMED SPECIAL QUAKE_0013_21
+  - first:
+      213: 8324695612999801909
+    second: ARMED SPECIAL QUAKE_0013_22
+  - first:
+      213: -2215444356908826581
+    second: ARMED SPECIAL QUAKE_0013_23
+  - first:
+      213: 9063886672246161947
+    second: ARMED SPECIAL QUAKE_0013_24
+  - first:
+      213: 4007709404327576159
+    second: ARMED SPECIAL QUAKE_0013_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_0
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 680
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140091e50a2bff8f0800000000000000
+      internalID: -504488231398997951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_1
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 648
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eec4cb37a76188b0800000000000000
+      internalID: -5151722530775183644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_2
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 680
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2377bf8f0e8f6650800000000000000
+      internalID: 6228353007163503407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_3
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 653
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cd2281b08c03e70800000000000000
+      internalID: 9092987597636164675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_4
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 118
+        width: 602
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844725c26d74d2d0800000000000000
+      internalID: -3254838767514073971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_5
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 597
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1185ae92fd3c9b3a0800000000000000
+      internalID: -6649068011587479535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_6
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 570
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb0f5cb590285e0800000000000000
+      internalID: -1908953002284105943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_7
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 541
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bf92f0fc4e4de60800000000000000
+      internalID: 7986259617198504779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_8
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 523
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc06915868947e40800000000000000
+      internalID: 5653311006069623990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_9
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 501
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5952383f6f136b20800000000000000
+      internalID: 3126377128869910879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_10
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 447
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb86d3751e28b090800000000000000
+      internalID: -8018608466860536891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_11
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 457
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc06c7de8f4cd2d0800000000000000
+      internalID: -3252637355944309517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_12
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 491
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e7f9a66ccc31690800000000000000
+      internalID: -7632531790898430425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_13
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 423
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e6c150d85876a70800000000000000
+      internalID: 8820165235951037954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_14
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 431
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783e67ec93e516800800000000000000
+      internalID: 603867427414401927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_15
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 369
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d462eedd071de330800000000000000
+      internalID: 3741672213756142805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_16
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 373
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc91053c351c9be60800000000000000
+      internalID: 7978620780366797263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_17
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 369
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c276823873361b0800000000000000
+      internalID: -5664622869843858412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_18
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 336
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f690f5c27d8d5dba0800000000000000
+      internalID: -6064702904510510737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_19
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 287
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec62c19b13215bb0800000000000000
+      internalID: -4949135914186937119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_20
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 293
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866fa209f68189530800000000000000
+      internalID: 3861863547909371496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 229
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd740dc77fe163180800000000000000
+      internalID: -9136080745774692389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_22
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 220
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c1b1ccd82478370800000000000000
+      internalID: 8324695612999801909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_23
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 215
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b204ec668192141e0800000000000000
+      internalID: -2215444356908826581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_24
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 220
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1241a7e7e469cd70800000000000000
+      internalID: 9063886672246161947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARMED SPECIAL QUAKE_0013_25
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 230
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5200ff287e3e9730800000000000000
+      internalID: 4007709404327576159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ARMED SPECIAL QUAKE_0013_0: -504488231398997951
+      ARMED SPECIAL QUAKE_0013_1: -5151722530775183644
+      ARMED SPECIAL QUAKE_0013_10: -8018608466860536891
+      ARMED SPECIAL QUAKE_0013_11: -3252637355944309517
+      ARMED SPECIAL QUAKE_0013_12: -7632531790898430425
+      ARMED SPECIAL QUAKE_0013_13: 8820165235951037954
+      ARMED SPECIAL QUAKE_0013_14: 603867427414401927
+      ARMED SPECIAL QUAKE_0013_15: 3741672213756142805
+      ARMED SPECIAL QUAKE_0013_16: 7978620780366797263
+      ARMED SPECIAL QUAKE_0013_17: -5664622869843858412
+      ARMED SPECIAL QUAKE_0013_18: -6064702904510510737
+      ARMED SPECIAL QUAKE_0013_19: -4949135914186937119
+      ARMED SPECIAL QUAKE_0013_2: 6228353007163503407
+      ARMED SPECIAL QUAKE_0013_20: 3861863547909371496
+      ARMED SPECIAL QUAKE_0013_21: -9136080745774692389
+      ARMED SPECIAL QUAKE_0013_22: 8324695612999801909
+      ARMED SPECIAL QUAKE_0013_23: -2215444356908826581
+      ARMED SPECIAL QUAKE_0013_24: 9063886672246161947
+      ARMED SPECIAL QUAKE_0013_25: 4007709404327576159
+      ARMED SPECIAL QUAKE_0013_3: 9092987597636164675
+      ARMED SPECIAL QUAKE_0013_4: -3254838767514073971
+      ARMED SPECIAL QUAKE_0013_5: -6649068011587479535
+      ARMED SPECIAL QUAKE_0013_6: -1908953002284105943
+      ARMED SPECIAL QUAKE_0013_7: 7986259617198504779
+      ARMED SPECIAL QUAKE_0013_8: 5653311006069623990
+      ARMED SPECIAL QUAKE_0013_9: 3126377128869910879
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
