@@ -1,0 +1,230 @@
+Tuần 1–2 — Quantum Foundation và Authentication
+Tuần 1
+[Unity/Quantum]
+- Cài Photon Quantum 3.
+- Tạo scene online 1v1.
+- Tạo player entity và Input.qtn.
+- Hai client vào cùng Quantum session.
+- Chốt tick rate và mô hình server-side validation.
+[Unity → Backend]
+- Giao platform, userId, buildVersion, simulationVersion.
+- Giao flow Login → Matchmaking → Photon → Result.
+- Giao input action list, player limit và session metadata.
+- Giao quy tắc disconnect trước trận.
+[Backend → Unity]
+- Bàn giao staging URL, /health, tài khoản test.
+- Bàn giao authentication, /profile, token format và error code.
+Tuần 2 — Unity Integration
+- Tạo environment config và HTTP client.
+- Tích hợp login/profile.
+- Lưu và gắn access token.
+- Tích hợp refresh token.
+- Map lỗi backend sang UI.
+- Kiểm thử backend offline/token hết hạn.
+Chỉ qua tuần 3 khi: hai tài khoản login được, lấy đúng userId, hai client vào được Quantum session.
+
+Tiến độ cộng dồn: 8–10%.
+Tuần 3–4 — Deterministic Movement và Presence
+Tuần 3
+[Unity/Quantum]
+- Chuyển chạy, nhảy, gravity và ground check sang Quantum.
+- Chuyển dash, collision và respawn.
+- Unity Transform/Animator chỉ hiển thị Quantum state.
+- Test rollback movement ở 50–150 ms.
+[Unity → Backend]
+- Giao build PC đầu tiên.
+- Giao hướng dẫn chạy hai client.
+- Giao session lifecycle.
+- Giao timeout và disconnect reason.
+[Backend → Unity]
+- Bàn giao WebSocket authentication.
+- Bàn giao heartbeat và presence event.
+- Bàn giao room/invitation metadata tối thiểu.
+Tuần 4 — Unity Integration
+- Tạo WebSocket client.
+- Tích hợp heartbeat và reconnect.
+- Nhận presence online/matchmaking/in-match.
+- Xử lý invitation/room cơ bản.
+- Ngăn duplicate connection/event.
+- Kiểm tra mất mạng và kết nối lại.
+Chỉ qua tuần 5 khi: movement đồng bộ và WebSocket reconnect không tạo event trùng.
+
+Tiến độ cộng dồn: 20–25%.
+Tuần 5–6 — Combat và Approved Loadout
+Tuần 5
+[Unity/Quantum]
+- Tạo attack state: startup, active, recovery.
+- Chuyển hit stun, knockback, health và KO.
+- Chuyển hitbox/hurtbox sang Quantum Physics.
+- Loại bỏ animation event khỏi quyết định damage.
+- Ngăn double-hit.
+[Unity → Backend]
+- Giao characterId và attackSetVersion.
+- Giao danh sách character/loadout hợp lệ.
+- Giao loadout schema.
+- Giao validation rule và immutable field.
+- Giao quy tắc xử lý version mismatch.
+[Backend → Unity]
+- Bàn giao approved loadout.
+- Bàn giao loadoutVersion.
+- Bàn giao matchId.
+- Backend khóa loadout khi tạo match.
+Tuần 6 — Unity Integration
+- Parse approved character/loadout.
+- Kiểm tra ID và version.
+- Map loadout sang Quantum asset.
+- Tạo RuntimePlayer.
+- Không sử dụng stats do client tự lưu.
+- Kiểm thử sửa dữ liệu local không ảnh hưởng trận.
+Chỉ qua tuần 7 khi: hai player gây damage giống nhau và approved loadout được map đúng.
+
+Tiến độ cộng dồn: 35–40%.
+Tuần 7–8 — Input System và MatchTicket
+Tuần 7
+[Unity/Quantum]
+- Tạo input buffer theo frame.
+- Tạo configurable input delay.
+- Chống thực hiện input hai lần sau rollback.
+- Validate startup/active/recovery.
+- Validate frame advantage và cancel rule.
+- Test rollback combat.
+[Unity → Backend]
+- Giao Game Server Contract 1.0.
+- Giao MatchTicket schema.
+- Giao Photon session rules.
+- Giao version compatibility.
+- Giao network profile dự kiến.
+- Giao PC/Android alpha, log và hướng dẫn test.
+[Backend → Unity]
+- Bàn giao matchmaking endpoint.
+- Bàn giao signed MatchTicket.
+- Bàn giao staging/mock cho hai user test.
+- Ticket có expiry, session, loadout, version và network profile.
+Tuần 8 — Unity Integration
+- Tạo matchmaking state machine.
+- Parse và validate MatchTicket.
+- Kiểm tra user, expiry và version.
+- Tạo RuntimePlayer từ ticket.
+- Kết nối đúng photonSession.
+- Xử lý cancel, timeout và retry.
+- Xử lý room hết hạn/đã đầy/không tồn tại.
+Chỉ qua tuần 9 khi: hai tài khoản tìm thấy nhau và vào đúng một Quantum session bằng ticket hợp lệ.
+
+Tiến độ cộng dồn: 50–55%.
+Tuần 9–10 — Match Lifecycle và MatchResult
+Tuần 9
+[Unity/Quantum]
+- Chuyển countdown, timer và score sang Quantum.
+- Chuyển win condition, KO và respawn.
+- Tạo kết quả từ verified state.
+- Khóa input khi trận kết thúc.
+[Unity → Backend]
+- Giao MatchResult schema.
+- Giao win/lose/cancel rule.
+- Giao disconnect/forfeit rule.
+- Giao result metadata/hash.
+- Giao score/stat mapping.
+[Backend → Unity]
+- Bàn giao MatchResult endpoint.
+- Hỗ trợ idempotency theo matchId.
+- Hỗ trợ finished/cancelled/abandoned.
+- Lưu match history và stats.
+Tuần 10 — Unity Integration
+- Gửi MatchResult từ verified state.
+- Retry có giới hạn.
+- Lưu tạm result khi mất mạng.
+- Ngăn gửi kết quả trùng.
+- Đồng bộ finished/cancelled/abandoned.
+- Hiển thị trạng thái lưu kết quả.
+Chỉ qua tuần 11 khi: chơi hết trận và backend lưu đúng một kết quả.
+
+Tiến độ cộng dồn: 60–65%.
+Tuần 11–12 — Desync và Automatic Resync
+Tuần 11
+[Unity/Quantum]
+- Bật checksum.
+- Ghi frame đầu tiên bị lệch.
+- Ghi input history và config hash.
+- Tạo resync/rejoin flow.
+- Hủy trận an toàn nếu resync thất bại.
+- Cố tình tạo desync để kiểm thử.
+[Unity → Backend]
+- Giao DesyncReport schema.
+- Giao telemetry list.
+- Giao config hash và simulation version.
+- Giao log mẫu/frame dump metadata.
+[Backend → Unity]
+- Bàn giao DesyncReport endpoint.
+- Bàn giao report storage.
+- Bàn giao version gating.
+- Hỗ trợ tra cứu report theo matchId.
+Tuần 12 — Unity Integration
+- Tạo và gửi DesyncReport.
+- Gửi frame/checksum/ping/jitter/rollback count.
+- Rate-limit report.
+- Không gửi dữ liệu nhạy cảm.
+- Thực hiện resync/rejoin sau report.
+- Test backend lỗi và report retry.
+Chỉ qua tuần 13 khi: backend nhận được report và client resync hoặc kết thúc trận an toàn.
+
+Tiến độ cộng dồn: 67–72%.
+Tuần 13–14 — Platform Network Profile
+Tuần 13
+[Unity/Quantum]
+- Tạo profile PC, Android và iOS.
+- Cấu hình input delay.
+- Cấu hình maximum rollback frames.
+- Cấu hình timeout và reconnect window.
+- Test latency, jitter và packet loss.
+- Test PC–Android.
+[Unity → Backend]
+- Giao network profile version.
+- Giao performance report.
+- Giao rollback limit.
+- Giao minimum supported version.
+- Giao platform pair được phép matchmaking.
+[Backend → Unity]
+- Bàn giao networkProfile trong MatchTicket.
+- Bàn giao build/version gating.
+- Bàn giao platform matchmaking rule.
+Tuần 14 — Unity Integration
+- Parse và validate network profile.
+- Áp dụng profile trước khi simulation bắt đầu.
+- Dùng fallback an toàn khi profile lỗi.
+- Từ chối version/profile không tương thích.
+- Ghi profile vào log và MatchResult.
+- Cảnh báo ping vượt giới hạn.
+Chỉ qua tuần 15 khi: PC/mobile sử dụng đúng profile và rollback không vượt giới hạn.
+
+Tiến độ cộng dồn: 72–76%.
+Tuần 15–16 — Production và Buffer
+Tuần 15
+[Unity/Quantum]
+- Bù các task P0 chưa hoàn thành.
+- Regression deterministic checksum.
+- Test spam input, disconnect và packet loss.
+- Test ticket/loadout/version giả.
+- Sửa blocker và critical.
+- Build release candidate.
+[Unity → Backend]
+- Giao release candidate.
+- Giao compatibility matrix.
+- Giao test report.
+- Giao supported network profile.
+- Giao error code cuối.
+- Giao hướng dẫn tái hiện desync.
+- Giao release version.
+[Backend → Unity]
+- Bàn giao production URL.
+- Hoàn thành security test.
+- Bàn giao monitoring.
+- Đóng băng API contract.
+- Bàn giao maintenance/minimum-version response.
+Tuần 16 — Unity Integration và nghiệm thu
+- Chuyển staging sang production.
+- Kiểm tra HTTPS/certificate.
+- Kiểm tra rate limit và maintenance.
+- Kiểm tra minimum version/force update.
+- Kiểm tra production MatchTicket/MatchResult/DesyncReport.
+- Sửa lỗi integration cuối cùng.
+- Xuất PC/Android release candidate cuối.

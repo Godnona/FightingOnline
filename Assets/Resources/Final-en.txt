@@ -1,0 +1,230 @@
+Weeks 1–2 — Quantum Foundation and Authentication
+Week 1
+[Unity/Quantum]
+- Install Photon Quantum 3.
+- Create an online 1v1 scene.
+- Create the player entity and Input.qtn.
+- Connect two clients to the same Quantum session.
+- Finalize the tick rate and server-side validation model.
+[Unity → Backend]
+- Provide platform, userId, buildVersion, and simulationVersion.
+- Provide the Login → Matchmaking → Photon → Result flow.
+- Provide the input action list, player limit, and session metadata.
+- Provide the pre-match disconnect rules.
+[Backend → Unity]
+- Provide the staging URL, /health endpoint, and test accounts.
+- Provide authentication, /profile, the token format, and error codes.
+Week 2 — Unity Integration
+- Create the environment configuration and HTTP client.
+- Integrate login/profile.
+- Store and attach the access token.
+- Integrate refresh-token handling.
+- Map backend errors to the UI.
+- Test offline-backend and expired-token scenarios.
+Proceed to Week 3 only when two accounts can log in, the correct userId is retrieved, and both clients can join the Quantum session.
+
+Cumulative progress: 8–10%.
+Weeks 3–4 — Deterministic Movement and Presence
+Week 3
+[Unity/Quantum]
+- Move running, jumping, gravity, and ground checks to Quantum.
+- Move dashing, collision, and respawning to Quantum.
+- Use Unity Transform/Animator only to display Quantum state.
+- Test movement rollback at 50–150 ms.
+[Unity → Backend]
+- Provide the first PC build.
+- Provide instructions for running two clients.
+- Provide the session lifecycle.
+- Provide timeout values and disconnect reasons.
+[Backend → Unity]
+- Provide WebSocket authentication.
+- Provide heartbeat and presence events.
+- Provide the minimum required room/invitation metadata.
+Week 4 — Unity Integration
+- Create the WebSocket client.
+- Integrate heartbeat and reconnection.
+- Receive online/matchmaking/in-match presence states.
+- Implement basic invitation/room handling.
+- Prevent duplicate connections/events.
+- Test network loss and reconnection.
+Proceed to Week 5 only when movement is synchronized and WebSocket reconnection does not create duplicate events.
+
+Cumulative progress: 20–25%.
+Weeks 5–6 — Combat and Approved Loadout
+Week 5
+[Unity/Quantum]
+- Create attack states: startup, active, and recovery.
+- Move hit stun, knockback, health, and KO to Quantum.
+- Move hitboxes/hurtboxes to Quantum Physics.
+- Remove animation events from damage decisions.
+- Prevent double hits.
+[Unity → Backend]
+- Provide characterId and attackSetVersion.
+- Provide the list of valid characters/loadouts.
+- Provide the loadout schema.
+- Provide validation rules and immutable fields.
+- Provide rules for handling version mismatches.
+[Backend → Unity]
+- Provide the approved loadout.
+- Provide loadoutVersion.
+- Provide matchId.
+- Lock the loadout on the backend when a match is created.
+Week 6 — Unity Integration
+- Parse the approved character/loadout.
+- Validate IDs and versions.
+- Map the loadout to Quantum assets.
+- Create RuntimePlayer.
+- Do not use stats stored by the client.
+- Verify that modifying local data does not affect the match.
+Proceed to Week 7 only when both players deal identical damage and the approved loadout is mapped correctly.
+
+Cumulative progress: 35–40%.
+Weeks 7–8 — Input System and MatchTicket
+Week 7
+[Unity/Quantum]
+- Create a frame-based input buffer.
+- Create a configurable input delay.
+- Prevent inputs from being executed twice after rollback.
+- Validate startup/active/recovery.
+- Validate frame advantage and cancel rules.
+- Test combat rollback.
+[Unity → Backend]
+- Provide Game Server Contract 1.0.
+- Provide the MatchTicket schema.
+- Provide Photon session rules.
+- Provide version-compatibility rules.
+- Provide the planned network profile.
+- Provide the PC/Android alpha builds, logs, and testing instructions.
+[Backend → Unity]
+- Provide the matchmaking endpoint.
+- Provide a signed MatchTicket.
+- Provide a staging/mock environment for testing with two users.
+- The ticket must include expiry, session, loadout, version, and network profile information.
+Week 8 — Unity Integration
+- Create the matchmaking state machine.
+- Parse and validate MatchTicket.
+- Validate the user, expiry, and version.
+- Create RuntimePlayer from the ticket.
+- Connect to the correct photonSession.
+- Handle cancellation, timeout, and retry.
+- Handle expired/full/nonexistent rooms.
+Proceed to Week 9 only when two accounts can find each other and join the same Quantum session using valid tickets.
+
+Cumulative progress: 50–55%.
+Weeks 9–10 — Match Lifecycle and MatchResult
+Week 9
+[Unity/Quantum]
+- Move the countdown, timer, and score to Quantum.
+- Move win conditions, KO, and respawning to Quantum.
+- Generate the result from verified state.
+- Lock input when the match ends.
+[Unity → Backend]
+- Provide the MatchResult schema.
+- Provide win/lose/cancel rules.
+- Provide disconnect/forfeit rules.
+- Provide result metadata/hash.
+- Provide score/stat mappings.
+[Backend → Unity]
+- Provide the MatchResult endpoint.
+- Support idempotency by matchId.
+- Support finished/cancelled/abandoned states.
+- Store match history and stats.
+Week 10 — Unity Integration
+- Send MatchResult from verified state.
+- Implement limited retries.
+- Temporarily store the result when the network is unavailable.
+- Prevent duplicate result submissions.
+- Synchronize finished/cancelled/abandoned states.
+- Display the result-saving status.
+Proceed to Week 11 only when a full match can be completed and the backend stores exactly one result.
+
+Cumulative progress: 60–65%.
+Weeks 11–12 — Desync and Automatic Resync
+Week 11
+[Unity/Quantum]
+- Enable checksums.
+- Record the first divergent frame.
+- Record input history and the configuration hash.
+- Create the resync/rejoin flow.
+- Safely cancel the match if resync fails.
+- Intentionally create a desync for testing.
+[Unity → Backend]
+- Provide the DesyncReport schema.
+- Provide the telemetry list.
+- Provide the configuration hash and simulation version.
+- Provide sample logs/frame-dump metadata.
+[Backend → Unity]
+- Provide the DesyncReport endpoint.
+- Provide report storage.
+- Provide version gating.
+- Support report lookup by matchId.
+Week 12 — Unity Integration
+- Create and send DesyncReport.
+- Send frame/checksum/ping/jitter/rollback count data.
+- Rate-limit reports.
+- Do not send sensitive data.
+- Perform resync/rejoin after reporting.
+- Test backend-error and report-retry scenarios.
+Proceed to Week 13 only when the backend receives the report and the client either resynchronizes or ends the match safely.
+
+Cumulative progress: 67–72%.
+Weeks 13–14 — Platform Network Profiles
+Week 13
+[Unity/Quantum]
+- Create profiles for PC, Android, and iOS.
+- Configure input delay.
+- Configure the maximum number of rollback frames.
+- Configure timeout and the reconnection window.
+- Test latency, jitter, and packet loss.
+- Test PC–Android play.
+[Unity → Backend]
+- Provide the network-profile version.
+- Provide the performance report.
+- Provide the rollback limit.
+- Provide the minimum supported version.
+- Provide the platform pairings allowed for matchmaking.
+[Backend → Unity]
+- Provide networkProfile in MatchTicket.
+- Provide build/version gating.
+- Provide platform matchmaking rules.
+Week 14 — Unity Integration
+- Parse and validate the network profile.
+- Apply the profile before the simulation starts.
+- Use a safe fallback if the profile is invalid.
+- Reject incompatible versions/profiles.
+- Record the profile in logs and MatchResult.
+- Display a warning when ping exceeds the limit.
+Proceed to Week 15 only when PC/mobile clients use the correct profile and rollback stays within the limit.
+
+Cumulative progress: 72–76%.
+Weeks 15–16 — Production and Buffer
+Week 15
+[Unity/Quantum]
+- Complete any unfinished P0 tasks.
+- Run deterministic-checksum regression tests.
+- Test input spamming, disconnections, and packet loss.
+- Test forged tickets/loadouts/versions.
+- Fix blocker and critical issues.
+- Build the release candidate.
+[Unity → Backend]
+- Provide the release candidate.
+- Provide the compatibility matrix.
+- Provide the test report.
+- Provide the supported network profile.
+- Provide the final error codes.
+- Provide instructions for reproducing desyncs.
+- Provide the release version.
+[Backend → Unity]
+- Provide the production URL.
+- Complete security testing.
+- Provide monitoring.
+- Freeze the API contract.
+- Provide maintenance/minimum-version responses.
+Week 16 — Unity Integration and Acceptance Testing
+- Switch from staging to production.
+- Verify HTTPS/certificates.
+- Verify rate limits and maintenance mode.
+- Verify minimum-version/forced-update behavior.
+- Verify production MatchTicket/MatchResult/DesyncReport flows.
+- Fix the final integration issues.
+- Produce the final PC/Android release candidate.
