@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 37853afaadb1c1445976be059949aa14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5347568225902965745
+    second: Particle_explosion_only0027_0
+  - first:
+      213: -1914314316304850694
+    second: Particle_explosion_only0027_1
+  - first:
+      213: -2928768928339787434
+    second: Particle_explosion_only0027_2
+  - first:
+      213: 819942898960335888
+    second: Particle_explosion_only0027_3
+  - first:
+      213: 3632466528092916542
+    second: Particle_explosion_only0027_4
+  - first:
+      213: -4740240584333997761
+    second: Particle_explosion_only0027_5
+  - first:
+      213: -6730884649900324298
+    second: Particle_explosion_only0027_6
+  - first:
+      213: 7588282512791628315
+    second: Particle_explosion_only0027_7
+  - first:
+      213: -6943730790875240750
+    second: Particle_explosion_only0027_8
+  - first:
+      213: 4317229501576492901
+    second: Particle_explosion_only0027_9
+  - first:
+      213: -1295699067981246292
+    second: Particle_explosion_only0027_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_0
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 974
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c43eaf70f99c5b0800000000000000
+      internalID: -5347568225902965745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 962
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af06434954dfe65e0800000000000000
+      internalID: -1914314316304850694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 786
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6510b1d4d2cea57d0800000000000000
+      internalID: -2928768928339787434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_3
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 796
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01482ace8b5016b00800000000000000
+      internalID: 819942898960335888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_4
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 778
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b8979cf0d196230800000000000000
+      internalID: 3632466528092916542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 703
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39c1ecad48473eb0800000000000000
+      internalID: -4740240584333997761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_6
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 719
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63acf8a92181792a0800000000000000
+      internalID: -6730884649900324298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_7
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 583
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ae04eadbefe4960800000000000000
+      internalID: 7588282512791628315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 537
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d660f992a9e2af90800000000000000
+      internalID: -6943730790875240750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_9
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 105
+        width: 434
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567bd47ab51e9eb30800000000000000
+      internalID: 4317229501576492901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle_explosion_only0027_10
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 69
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca05c250090c40ee0800000000000000
+      internalID: -1295699067981246292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Particle_explosion_only0027_0: -5347568225902965745
+      Particle_explosion_only0027_1: -1914314316304850694
+      Particle_explosion_only0027_10: -1295699067981246292
+      Particle_explosion_only0027_2: -2928768928339787434
+      Particle_explosion_only0027_3: 819942898960335888
+      Particle_explosion_only0027_4: 3632466528092916542
+      Particle_explosion_only0027_5: -4740240584333997761
+      Particle_explosion_only0027_6: -6730884649900324298
+      Particle_explosion_only0027_7: 7588282512791628315
+      Particle_explosion_only0027_8: -6943730790875240750
+      Particle_explosion_only0027_9: 4317229501576492901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
