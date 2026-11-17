@@ -15,16 +15,15 @@ This folder contains the Unity-side API foundation described by the current inte
 - In-memory token storage for development.
 - Single-flight refresh coordination with rotated-token protection.
 
-## Waiting for backend/API contract
+## Not yet implemented in this Unity client
 
-- Concrete `/auth/refresh` service: the guide does not define its request body yet.
-- Current-session `/auth/logout`: the guide does not define how the session is identified.
-- Identity linking/list/removal response contracts.
-- Apple login.
+- Concrete `/auth/refresh` and `/auth/logout` calls (their bodies are now documented).
+- Identity linking/list/removal calls (their routes and response contracts are now documented).
+- Apple login and the optional first-authorization `appleProfile` payload.
 - Inventory, game-social, matchmaking, and matches APIs.
 - Exact structured models for `error.details`.
 
-Do not guess the refresh/logout payloads: a refresh token is single-use and a wrong duplicate request can invalidate the session.
+Refresh is single-flight: a refresh token is single-use and a duplicate request can invalidate the session.
 
 ## Setup
 

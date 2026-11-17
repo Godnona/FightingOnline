@@ -1,0 +1,61 @@
+name: Backend CI and staging
+
+on:
+  pull_request:
+    paths:
+      - "Backend/**"
+      - ".github/workflows/backend-ci.yml"
+      - "render.yaml"
+  push:
+    branches: [main, dev]
+    paths:
+      - "Backend/**"
+      - ".github/workflows/backend-ci.yml"
+      - "render.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Backend
+    env:
+      DATABASE_URL: mongodb://127.0.0.1:27017/ripptopia_test?replicaSet=rs0&directConnection=true
+      DATABASE_URL_TEST: mongodb://127.0.0.1:27017/ripptopia_test?replicaSet=rs0&directConnection=true
+      JWT_SECRET: ci-only-secret-that-is-at-least-32-characters-long
+      MAIL_TRANSPORT: memory
+      SOCIAL_AUTH_MOCK: "true"
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: Backend/package-lock.json
+
+      - name: Start MongoDB replica set
+        run: |
+          docker run --detach --name ripptopia-ci-mongo --publish 27017:27017 mongo:8.0 --replSet rs0 --bind_ip_all
+          for attempt in {1..30}; do
+            if docker exec ripptopia-ci-mongo mongosh --quiet --eval "db.adminCommand({ ping: 1 }).ok" | grep -q 1; then
+              break
+            fi
+            sleep 2
+          done
+          docker exec ripptopia-ci-mongo mongosh --quiet --eval "rs.initiate({_id:'rs0',members:[{_id:0,host:'localhost:27017'}]})"
+          for attempt in {1..30}; do
+            if docker exec ripptopia-ci-mongo mongosh --quiet --eval "rs.status().myState" | grep -q 1; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
+
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build

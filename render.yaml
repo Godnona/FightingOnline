@@ -1,18 +1,50 @@
 services:
   - type: web
-    name: ripptopia-login-demo
+    name: ripptopia-api-staging
     runtime: node
     plan: free
     region: singapore
-    rootDir: DemoBackend
-    buildCommand: npm ci
+    rootDir: Backend
+    buildCommand: npm ci && npm run db:deploy && npm run build && npm prune --omit=dev --omit=peer
     startCommand: npm start
     healthCheckPath: /health/ready
-    autoDeployTrigger: commit
+    autoDeployTrigger: checksPass
     envVars:
       - key: NODE_ENV
         value: production
       - key: JWT_SECRET
         generateValue: true
+      - key: TRUST_PROXY
+        value: "true"
       - key: CORS_ORIGINS
         value: "*"
+      - key: SWAGGER_ENABLED
+        value: "true"
+      - key: SOCIAL_AUTH_MOCK
+        value: "false"
+      - key: DATABASE_URL
+        sync: false
+      - key: API_PUBLIC_URL
+        sync: false
+      - key: GOOGLE_CLIENT_IDS
+        sync: false
+      - key: FACEBOOK_APP_ID
+        sync: false
+      - key: FACEBOOK_APP_SECRET
+        sync: false
+      - key: APPLE_CLIENT_IDS
+        sync: false
+      - key: MAIL_TRANSPORT
+        value: smtp
+      - key: MAIL_FROM
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_SECURE
+        value: "false"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false

@@ -142,8 +142,8 @@ Assets/
 |-- Scenes/                              Main menu, selection, and gameplay scenes
 |-- AstarPathfindingProject/             Third-party pathfinding package
 |-- GG Camera Shake/                     Third-party camera-shake package
-BackendDev/                              Full backend (Fastify + Prisma + PostgreSQL)
-DemoBackend/                             Database-free backend for HTTPS login demos
+Backend/                                 Staging backend (Fastify + Prisma + MongoDB)
+BackendDev/                              Original PostgreSQL backend reference
 Packages/                                Unity package declarations
 ProjectSettings/                         Unity project and build configuration
 ```
@@ -169,8 +169,8 @@ For a standalone build, keep all five scenes enabled in the order shown above an
 ## Current Development Notes
 
 - `GridWarsOnline` exists as a game-mode option but has no scene or networking implementation assigned yet.
-- `BackendDev` currently contains only a placeholder file; there is no backend service in this repository.
-- No project-owned automated tests are currently present.
+- `Backend` contains the staging-ready authentication/profile API and its automated test suite.
+- Matchmaking remains handled by Photon Quantum; no custom matchmaking REST contract is defined yet.
 - Most gameplay configuration is serialized in scenes and prefabs, so code changes may also require Inspector updates.
 - `Assets/_Recovery` contains Unity recovery scenes and is not part of the normal game flow.
 "# FightingOnline" 
