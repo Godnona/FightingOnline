@@ -169,10 +169,10 @@ export function describeRepositoriesContract(createRepositories: () => Promise<R
     it('rejects a provider account already linked to another user', async () => {
       const first = await createUser()
       const second = await createUser()
-      await repos.identities.create(first.id, { provider: 'APPLE', providerUserId: 'apple-sub' })
+      await repos.identities.create(first.id, { provider: 'PLAYGAMES', providerUserId: 'play-sub' })
 
       await expect(
-        repos.identities.create(second.id, { provider: 'APPLE', providerUserId: 'apple-sub' }),
+        repos.identities.create(second.id, { provider: 'PLAYGAMES', providerUserId: 'play-sub' }),
       ).rejects.toEqual(uniqueViolation('provider', 'providerUserId'))
     })
 
@@ -230,7 +230,7 @@ export function describeRepositoriesContract(createRepositories: () => Promise<R
       const user = await createUser()
       await repos.identities.create(user.id, { provider: 'GOOGLE', providerUserId: 'g-last' })
 
-      expect(await repos.identities.deleteUnlessLast(user.id, 'APPLE')).toBe('not_found')
+      expect(await repos.identities.deleteUnlessLast(user.id, 'PLAYGAMES')).toBe('not_found')
       expect(await repos.identities.deleteUnlessLast(user.id, 'GOOGLE')).toBe('deleted')
       expect(await repos.identities.deleteUnlessLast(user.id, 'EMAIL')).toBe('last_identity')
 

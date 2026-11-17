@@ -14,8 +14,6 @@ export type LinkSocialIdentityRequest = {
   userId: string
   provider: SocialProvider
   token: string
-  providerGivenName?: string | null
-  providerFamilyName?: string | null
 }
 
 export class LinkSocialIdentityUseCase {
@@ -45,8 +43,6 @@ export class LinkSocialIdentityUseCase {
         providerUserId: profile.providerUserId,
         email: profile.email,
         emailVerifiedAt: profile.email ? new Date() : null,
-        providerGivenName: provider === 'APPLE' ? request.providerGivenName : undefined,
-        providerFamilyName: provider === 'APPLE' ? request.providerFamilyName : undefined,
       })
     } catch (error) {
       if (!(error instanceof UniqueConstraintError)) throw error

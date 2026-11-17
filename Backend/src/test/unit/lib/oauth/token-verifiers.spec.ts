@@ -54,9 +54,8 @@ describe('OidcTokenVerifier', () => {
     const result = await verifier.verify(await sign({ email_verified: false }))
     expect(result).toMatchObject({ valid: true, profile: { email: null } })
 
-    // apple sends the flag as a string
-    const apple = await verifier.verify(await sign({ email_verified: 'true' }))
-    expect(apple).toMatchObject({ valid: true, profile: { email: 'player@example.com' } })
+    const stringFlag = await verifier.verify(await sign({ email_verified: 'true' }))
+    expect(stringFlag).toMatchObject({ valid: true, profile: { email: 'player@example.com' } })
   })
 
   it.each([
@@ -192,7 +191,6 @@ describe('buildSocialTokenVerifiers', () => {
     FACEBOOK_APP_ID: undefined,
     FACEBOOK_APP_SECRET: undefined,
     FACEBOOK_GRAPH_API_VERSION: 'v24.0',
-    APPLE_CLIENT_IDS: [],
     SOCIAL_AUTH_MOCK: false,
   }
 
@@ -200,7 +198,7 @@ describe('buildSocialTokenVerifiers', () => {
     const { verifiers, modes } = buildSocialTokenVerifiers(none)
 
     expect(verifiers).toEqual({})
-    expect(modes).toEqual({ GOOGLE: 'disabled', FACEBOOK: 'disabled', APPLE: 'disabled' })
+    expect(modes).toEqual({ GOOGLE: 'disabled', FACEBOOK: 'disabled' })
   })
 
   it('uses the real verifier when configured and the mock for the rest', () => {
@@ -210,19 +208,18 @@ describe('buildSocialTokenVerifiers', () => {
       SOCIAL_AUTH_MOCK: true,
     })
 
-    expect(modes).toEqual({ GOOGLE: 'real', FACEBOOK: 'mock', APPLE: 'mock' })
+    expect(modes).toEqual({ GOOGLE: 'real', FACEBOOK: 'mock' })
     expect(verifiers.GOOGLE).toBeInstanceOf(OidcTokenVerifier)
     expect(verifiers.FACEBOOK).toBeInstanceOf(MockTokenVerifier)
   })
 
-  it('configures facebook and apple', () => {
+  it('configures facebook', () => {
     const { modes } = buildSocialTokenVerifiers({
       ...none,
       FACEBOOK_APP_ID: 'app',
       FACEBOOK_APP_SECRET: 'secret',
-      APPLE_CLIENT_IDS: ['com.example.game'],
     })
 
-    expect(modes).toEqual({ GOOGLE: 'disabled', FACEBOOK: 'real', APPLE: 'real' })
+    expect(modes).toEqual({ GOOGLE: 'disabled', FACEBOOK: 'real' })
   })
 })

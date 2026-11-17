@@ -12,7 +12,6 @@ import {
 const providerNames: Record<SocialProvider, string> = {
   GOOGLE: 'Google',
   FACEBOOK: 'Facebook',
-  APPLE: 'Apple',
 }
 
 export async function verifySocialToken(

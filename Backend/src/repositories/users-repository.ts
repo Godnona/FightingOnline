@@ -5,8 +5,6 @@ export type CreateIdentityData = {
   providerUserId: string
   email?: string | null
   emailVerifiedAt?: Date | null
-  providerGivenName?: string | null
-  providerFamilyName?: string | null
   passwordHash?: string | null
 }
 

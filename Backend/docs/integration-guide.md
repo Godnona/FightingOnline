@@ -29,7 +29,7 @@ Use `code` in the client logic. `message` is for debugging and can change.
 | 401    | `INVALID_ACCESS_TOKEN`         | Bad access token                                          |
 | 401    | `ACCESS_TOKEN_EXPIRED`         | Call `/auth/refresh` and retry                            |
 | 401    | `INVALID_REFRESH_TOKEN`        | Refresh token unknown, expired, revoked or already used   |
-| 401    | `INVALID_PROVIDER_TOKEN`       | Google, Facebook or Apple token rejected                  |
+| 401    | `INVALID_PROVIDER_TOKEN`       | Google or Facebook token rejected                         |
 | 403    | `ACCOUNT_BANNED`               | Account is banned                                         |
 | 403    | `FORBIDDEN`                    | The player's role can't do this (admin-only routes)       |
 | 404    | `IDENTITY_NOT_FOUND`           | The account has no sign-in method from that provider      |
@@ -107,7 +107,7 @@ Everything happens inside the game, there is no web page.
 - Asking for a new code kills the previous one.
 - At most 5 codes per hour are sent to the same account. Extra requests still answer 202 but send nothing.
 
-## Google, Facebook and Apple
+## Google and Facebook
 
 The game gets a token from the provider (SDK or the provider's own sign-in screen) and sends it to the API. The API checks it with the provider and answers with its own `user` and `session`, so after that everything works like the email login.
 
@@ -115,9 +115,8 @@ The game gets a token from the provider (SDK or the provider's own sign-in scree
 | --------------------- | ------------------------------------------------------------ |
 | `POST /auth/google`   | The Google **ID token** (not the access token)               |
 | `POST /auth/facebook` | The Facebook access token, or the Limited Login token on iOS |
-| `POST /auth/apple`    | The `identityToken` from Sign in with Apple                  |
 
-Body: `{ "token": "...", "deviceInfo": "optional" }`. All three answer 200 with the same body as the email login plus `isNewUser`:
+Body: `{ "token": "...", "deviceInfo": "optional" }`. Both answer 200 with the same body as the email login plus `isNewUser`:
 
 ```json
 { "user": { ... }, "session": { ... }, "isNewUser": true }
@@ -125,21 +124,14 @@ Body: `{ "token": "...", "deviceInfo": "optional" }`. All three answer 200 with 
 
 - The first sign-in creates the account with a name like `Player482913`. Use `isNewUser` to offer a name change.
 - The next sign-ins with the same provider account return the same player.
-- For Apple, iOS native login and the Android/PC web login both send Apple's `identityToken`
-  in `token`. Configure both the iOS Bundle ID and the web Services ID in `APPLE_CLIENT_IDS`.
-- Apple sends the player's name only on the first authorization. The game may preserve it by
-  adding `"appleProfile": { "givenName": "...", "familyName": "..." }` to that first
-  `/auth/apple` request (or the first Apple linking request). This field is optional and does not
-  change the public player profile. Private relay addresses are accepted as verified emails when
-  they are present in Apple's signed identity token.
 
 ### Same email, different account
 
-Accounts are never merged by email. If the email of the Google, Facebook or Apple account already belongs to another player, the answer is `409 EMAIL_ALREADY_IN_USE`. Show something like "This email already has an account. Sign in with it and link Google in the settings", then use the linking routes below.
+Accounts are never merged by email. If the email of the Google or Facebook account already belongs to another player, the answer is `409 EMAIL_ALREADY_IN_USE`. Show something like "This email already has an account. Sign in with it and link Google in the settings", then use the linking routes below.
 
 ### Linking sign-in methods
 
-All need `Authorization: Bearer <accessToken>`. `{provider}` is `google`, `facebook` or `apple` (and `email` for removing).
+All need `Authorization: Bearer <accessToken>`. `{provider}` is `google` or `facebook` (and `email` for removing).
 
 | Route                                | Success | What it does                                 |
 | ------------------------------------ | ------- | -------------------------------------------- |
@@ -162,7 +154,7 @@ Linking the same provider account twice is fine (same answer). One account can h
 
 ### Testing before the real keys exist
 
-Until the Google client ids, the Facebook app and the Apple bundle id are set on the server, staging accepts fake tokens for those providers:
+Until the Google client ids and Facebook app are set on the server, staging accepts fake tokens for those providers:
 
 - `mock:<id>`, for example `mock:tester1`
 - `mock:<id>:<email>`, for example `mock:tester1:tester1@example.com`

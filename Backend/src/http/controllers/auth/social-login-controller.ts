@@ -8,13 +8,11 @@ import { makeAuthenticateWithSocialUseCase } from '@/use-cases/factories/make-au
 
 export function socialLoginController(provider: SocialProvider) {
   return async (request: FastifyRequest<{ Body: SocialLoginBody }>, reply: FastifyReply) => {
-    const { token, deviceInfo, appleProfile } = request.body
+    const { token, deviceInfo } = request.body
 
     const { user, session, isNewUser } = await makeAuthenticateWithSocialUseCase().execute({
       provider,
       token,
-      providerGivenName: provider === 'APPLE' ? appleProfile?.givenName : undefined,
-      providerFamilyName: provider === 'APPLE' ? appleProfile?.familyName : undefined,
       ...sessionMetadata(request, deviceInfo),
     })
 

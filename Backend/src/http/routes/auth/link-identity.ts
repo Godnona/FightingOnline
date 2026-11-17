@@ -5,7 +5,6 @@ import { z } from 'zod'
 import { linkIdentityController } from '@/http/controllers/auth/link-identity-controller'
 import { verifyAuthHook } from '@/http/middlewares/auth'
 import {
-  appleProfileSchema,
   identityResponseSchema,
   providerTokenSchema,
   socialProviderParamSchema,
@@ -15,8 +14,6 @@ import { authRateLimit } from '@/http/utils/rate-limits'
 export const linkIdentityParamsSchema = z.object({ provider: socialProviderParamSchema })
 export const linkIdentityBodySchema = z.object({
   token: providerTokenSchema,
-  /** Apple supplies the name only on the first authorization. Ignored for other providers. */
-  appleProfile: appleProfileSchema.optional(),
 })
 
 export type LinkIdentityParams = z.infer<typeof linkIdentityParamsSchema>
@@ -30,7 +27,7 @@ export async function linkIdentity(app: FastifyInstance) {
       config: { rateLimit: authRateLimit },
       schema: {
         tags: ['auth'],
-        summary: 'Link a Google, Facebook or Apple account to the signed-in player',
+        summary: 'Link a Google or Facebook account to the signed-in player',
         description: 'Linking the same provider account again is a no-op.',
         security: [{ bearerAuth: [] }],
         params: linkIdentityParamsSchema,

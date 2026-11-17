@@ -88,7 +88,6 @@ describe('parseEnv', () => {
     const defaults = parseEnv(required)
     expect(defaults).toMatchObject({
       GOOGLE_CLIENT_IDS: [],
-      APPLE_CLIENT_IDS: [],
       FACEBOOK_GRAPH_API_VERSION: 'v24.0',
       SOCIAL_AUTH_MOCK: false,
     })

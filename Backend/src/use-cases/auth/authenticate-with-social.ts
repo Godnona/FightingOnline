@@ -21,8 +21,6 @@ import { verifySocialToken } from './verify-social-token'
 export type AuthenticateWithSocialRequest = SessionMetadata & {
   provider: SocialProvider
   token: string
-  providerGivenName?: string | null
-  providerFamilyName?: string | null
 }
 
 export type AuthenticateWithSocialResponse = {
@@ -54,7 +52,7 @@ export class AuthenticateWithSocialUseCase {
       throw new EmailAlreadyInUseError()
     }
 
-    const user = await this.createUser(provider, profile, request)
+    const user = await this.createUser(provider, profile)
     if (!user) {
       // another request created this identity in the meantime
       const created = await this.identities.findByProvider(provider, profile.providerUserId)
@@ -80,14 +78,7 @@ export class AuthenticateWithSocialUseCase {
     return { user, session, isNewUser: false }
   }
 
-  private async createUser(
-    provider: SocialProvider,
-    profile: SocialProfile,
-    providerMetadata: Pick<
-      AuthenticateWithSocialRequest,
-      'providerGivenName' | 'providerFamilyName'
-    >,
-  ): Promise<User | null> {
+  private async createUser(provider: SocialProvider, profile: SocialProfile): Promise<User | null> {
     for (let attempt = 1; ; attempt++) {
       try {
         const { identities: _identities, ...user } = await this.users.create({
@@ -97,10 +88,6 @@ export class AuthenticateWithSocialUseCase {
             providerUserId: profile.providerUserId,
             email: profile.email,
             emailVerifiedAt: profile.email ? new Date() : null,
-            providerGivenName:
-              provider === 'APPLE' ? providerMetadata.providerGivenName : undefined,
-            providerFamilyName:
-              provider === 'APPLE' ? providerMetadata.providerFamilyName : undefined,
           },
         })
         return user

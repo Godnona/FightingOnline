@@ -61,8 +61,8 @@ describe('social auth routes', () => {
     await app.close()
   })
 
-  describe('POST /auth/google, /auth/facebook, /auth/apple', () => {
-    it.each(['google', 'facebook', 'apple'])('creates the account with %s', async (provider) => {
+  describe('POST /auth/google and /auth/facebook', () => {
+    it.each(['google', 'facebook'])('creates the account with %s', async (provider) => {
       const response = await socialLogin(provider, 'mock:p1:player@example.com')
 
       expect(response.statusCode).toBe(200)
@@ -162,7 +162,7 @@ describe('social auth routes', () => {
     it('returns 404 when unlinking a provider the player does not have', async () => {
       const { session } = await registerWithEmail()
 
-      const response = await request('DELETE', '/auth/identities/apple', {
+      const response = await request('DELETE', '/auth/identities/facebook', {
         accessToken: session.accessToken,
       })
 

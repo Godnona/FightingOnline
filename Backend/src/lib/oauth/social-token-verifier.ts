@@ -1,8 +1,8 @@
 import type { IdentityProvider } from '@/generated/prisma/client'
 
-export type SocialProvider = Extract<IdentityProvider, 'GOOGLE' | 'FACEBOOK' | 'APPLE'>
+export type SocialProvider = Extract<IdentityProvider, 'GOOGLE' | 'FACEBOOK'>
 
-export const SOCIAL_PROVIDERS: readonly SocialProvider[] = ['GOOGLE', 'FACEBOOK', 'APPLE']
+export const SOCIAL_PROVIDERS: readonly SocialProvider[] = ['GOOGLE', 'FACEBOOK']
 
 export type SocialProfile = {
   providerUserId: string

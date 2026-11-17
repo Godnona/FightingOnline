@@ -55,27 +55,16 @@ export const authResponseSchema = z.object({
 
 export const providerTokenSchema = z.string().trim().min(1).max(8192)
 
-const appleNamePartSchema = z.string().trim().min(1).max(100).nullable().optional()
-
-export const appleProfileSchema = z
-  .object({
-    givenName: appleNamePartSchema,
-    familyName: appleNamePartSchema,
-  })
-  .refine((profile) => Boolean(profile.givenName || profile.familyName), {
-    message: 'Send givenName, familyName or both',
-  })
-
 export const socialAuthResponseSchema = authResponseSchema.extend({
   isNewUser: z.boolean(),
 })
 
-export const socialProviderParamSchema = z.enum(['google', 'facebook', 'apple'])
+export const socialProviderParamSchema = z.enum(['google', 'facebook'])
 
-export const identityProviderParamSchema = z.enum(['email', 'google', 'facebook', 'apple'])
+export const identityProviderParamSchema = z.enum(['email', 'google', 'facebook'])
 
 export const identityResponseSchema = z.object({
-  provider: z.enum(['EMAIL', 'GOOGLE', 'FACEBOOK', 'APPLE', 'STEAM', 'GAMECENTER', 'PLAYGAMES']),
+  provider: z.enum(['EMAIL', 'GOOGLE', 'FACEBOOK', 'STEAM', 'PLAYGAMES']),
   email: z.string().nullable(),
   linkedAt: z.iso.datetime(),
   lastUsedAt: z.iso.datetime().nullable(),

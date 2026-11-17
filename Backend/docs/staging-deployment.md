@@ -25,14 +25,11 @@ identity unlinking and refresh-token rotation use transactions. Atlas provides t
 - A random `JWT_SECRET` of at least 32 characters (Render can generate it).
 - Google OAuth client IDs used by Android, iOS and PC/Web.
 - Facebook App ID and App Secret; the app must be in Active mode for real-player testing.
-- Apple Team ID, final iOS Bundle ID, Services ID for Android/PC web flow, Key ID and `.p8` key for
-  the client/web authorization setup. The API itself validates identity tokens from Apple's public
-  keys and needs the Bundle ID and Services ID in `APPLE_CLIENT_IDS`.
 - Android package name and SHA-1 fingerprints for debug and release certificates.
 - SMTP host, port, TLS mode, username/password and a verified `MAIL_FROM` address.
 - Public privacy-policy URL, support email, game/company name and logo for provider consent screens.
-- Unity login plugin choice and confirmation that it sends Google ID tokens, Facebook access or
-  Limited Login tokens, and Apple identity tokens.
+- Unity login plugin choice and confirmation that it sends Google ID tokens and Facebook access or
+  Limited Login tokens.
 
 ## First deployment
 
@@ -41,7 +38,7 @@ identity unlinking and refresh-token rotation use transactions. Atlas provides t
 3. Fill every environment variable marked `sync: false` in the Blueprint. Never place provider or
    database secrets in GitHub files.
 4. Deploy and wait for `GET /health/ready` to return `200` with `database: up`.
-5. Open `/docs`, then test email register/login, password reset, Google, Facebook, Apple, identity
+5. Open `/docs`, then test email register/login, password reset, Google, Facebook, identity
    link/unlink and profile routes.
 6. Set Unity's Staging URL to the HTTPS service URL with no trailing path. Do not use the local
    MongoDB URL or expose MongoDB to the game client.
@@ -70,7 +67,6 @@ Open a pull request into `main`. After CI passes, merge it; Render then deploys 
 - `/docs/json` contains auth, identity, profile and admin routes.
 - Email reset arrives through SMTP and a code can be used only once.
 - Refresh-token reuse ends the token family; logout-all ends every player session.
-- Google, Facebook and Apple tokens are checked against the configured app/client IDs.
-- Apple native and web audiences work; private relay email and first-login name are stored.
+- Google and Facebook tokens are checked against the configured app/client IDs.
 - Linking never merges accounts by email and the last identity cannot be removed.
 - Unity handles the documented error `code` values and retries once after `ACCESS_TOKEN_EXPIRED`.

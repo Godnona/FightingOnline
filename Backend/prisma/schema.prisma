@@ -24,9 +24,7 @@ enum IdentityProvider {
   EMAIL
   GOOGLE
   FACEBOOK
-  APPLE
   STEAM
-  GAMECENTER
   PLAYGAMES
 }
 
@@ -69,8 +67,6 @@ model UserIdentity {
   email              String?
   emailNormalized    String?          @map("email_normalized")
   emailVerifiedAt    DateTime?        @map("email_verified_at")
-  providerGivenName  String?          @map("provider_given_name")
-  providerFamilyName String?          @map("provider_family_name")
   passwordHash       String?          @map("password_hash")
   lastUsedAt         DateTime?        @map("last_used_at")
   createdAt          DateTime         @default(now()) @map("created_at")

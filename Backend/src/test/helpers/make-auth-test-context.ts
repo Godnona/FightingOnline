@@ -45,7 +45,6 @@ export function makeAuthTestContext() {
   })
   const sessions = new SessionIssuer(refreshTokens, accessTokens, 30)
   const displayNames = new DisplayNameGenerator(users)
-  // apple left out on purpose: it plays the "not configured" provider
   const socialVerifiers: SocialTokenVerifiers = {
     GOOGLE: new MockTokenVerifier(),
     FACEBOOK: new MockTokenVerifier(),

@@ -38,7 +38,6 @@ export default defineConfig({
       GOOGLE_CLIENT_IDS: '',
       FACEBOOK_APP_ID: '',
       FACEBOOK_APP_SECRET: '',
-      APPLE_CLIENT_IDS: '',
     },
     coverage: {
       provider: 'v8',

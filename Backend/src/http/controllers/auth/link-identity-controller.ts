@@ -13,10 +13,6 @@ export async function linkIdentityController(
     userId: request.getCurrentUserId(),
     provider: request.params.provider.toUpperCase() as SocialProvider,
     token: request.body.token,
-    providerGivenName:
-      request.params.provider === 'apple' ? request.body.appleProfile?.givenName : undefined,
-    providerFamilyName:
-      request.params.provider === 'apple' ? request.body.appleProfile?.familyName : undefined,
   })
   return reply.send({ identity: presentIdentity(identity) })
 }

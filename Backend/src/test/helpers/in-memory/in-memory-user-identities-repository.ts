@@ -50,8 +50,6 @@ export class InMemoryUserIdentitiesRepository implements UserIdentitiesRepositor
       email: data.email ?? null,
       emailNormalized: data.email?.trim().toLowerCase() ?? null,
       emailVerifiedAt: data.emailVerifiedAt ?? null,
-      providerGivenName: data.providerGivenName ?? null,
-      providerFamilyName: data.providerFamilyName ?? null,
       passwordHash: data.passwordHash ?? null,
       lastUsedAt: null,
       createdAt: now,

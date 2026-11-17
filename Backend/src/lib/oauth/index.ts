@@ -17,7 +17,6 @@ type SocialAuthEnv = Pick<
   | 'FACEBOOK_APP_ID'
   | 'FACEBOOK_APP_SECRET'
   | 'FACEBOOK_GRAPH_API_VERSION'
-  | 'APPLE_CLIENT_IDS'
   | 'SOCIAL_AUTH_MOCK'
 >
 
@@ -50,14 +49,6 @@ function realVerifiers(config: SocialAuthEnv): SocialTokenVerifiers {
     )
   }
 
-  if (config.APPLE_CLIENT_IDS.length > 0) {
-    verifiers.APPLE = new OidcTokenVerifier({
-      keys: remoteKeys('https://appleid.apple.com/auth/keys'),
-      issuers: ['https://appleid.apple.com'],
-      audiences: config.APPLE_CLIENT_IDS,
-    })
-  }
-
   return verifiers
 }
 
@@ -67,7 +58,7 @@ export function buildSocialTokenVerifiers(config: SocialAuthEnv) {
   const verifiers: SocialTokenVerifiers = {}
   const modes = {} as Record<SocialProvider, SocialAuthMode>
 
-  for (const provider of ['GOOGLE', 'FACEBOOK', 'APPLE'] as const) {
+  for (const provider of ['GOOGLE', 'FACEBOOK'] as const) {
     let verifier: SocialTokenVerifier | undefined = real[provider]
     modes[provider] = verifier ? 'real' : 'disabled'
 

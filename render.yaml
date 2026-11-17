@@ -32,8 +32,6 @@ services:
         sync: false
       - key: FACEBOOK_APP_SECRET
         sync: false
-      - key: APPLE_CLIENT_IDS
-        sync: false
       - key: MAIL_TRANSPORT
         value: smtp
       - key: MAIL_FROM

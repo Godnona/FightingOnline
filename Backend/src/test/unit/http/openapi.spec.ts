@@ -23,7 +23,8 @@ describe('OpenAPI documentation', () => {
     }>()
 
     expect(document.paths).toHaveProperty('/auth/register')
-    expect(document.paths).toHaveProperty('/auth/apple')
+    expect(document.paths).toHaveProperty('/auth/google')
+    expect(document.paths).toHaveProperty('/auth/facebook')
     expect(document.paths).toHaveProperty('/auth/identities/{provider}')
     expect(document.paths).toHaveProperty('/profile')
     expect(document.paths).toHaveProperty('/players/{playerId}')

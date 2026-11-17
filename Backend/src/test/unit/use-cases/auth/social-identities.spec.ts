@@ -1,6 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 
-import { MockTokenVerifier } from '@/lib/oauth/mock-token-verifier'
 import { UniqueConstraintError } from '@/repositories/_errors/unique-constraint-error'
 import {
   AccountBannedError,
@@ -66,24 +65,6 @@ describe('social identities', () => {
       expect(facebook.user.id).not.toBe(google.user.id)
     })
 
-    it('captures the Apple name only on the first authorization', async () => {
-      ctx.socialVerifiers.APPLE = new MockTokenVerifier()
-
-      await ctx.socialLogin.execute({
-        provider: 'APPLE',
-        token: 'mock:apple-1:private@privaterelay.appleid.com',
-        providerGivenName: 'Ripp',
-        providerFamilyName: 'Player',
-      })
-
-      expect(ctx.db.identities[0]).toMatchObject({
-        provider: 'APPLE',
-        email: 'private@privaterelay.appleid.com',
-        providerGivenName: 'Ripp',
-        providerFamilyName: 'Player',
-      })
-    })
-
     it('refuses an email that already belongs to an account', async () => {
       await registerEmailUser('taken@example.com')
 
@@ -100,8 +81,9 @@ describe('social identities', () => {
     })
 
     it('reports providers that are not configured', async () => {
+      delete ctx.socialVerifiers.FACEBOOK
       await expect(
-        ctx.socialLogin.execute({ provider: 'APPLE', token: 'mock:a1' }),
+        ctx.socialLogin.execute({ provider: 'FACEBOOK', token: 'mock:f1' }),
       ).rejects.toBeInstanceOf(ProviderNotConfiguredError)
     })
 
@@ -217,7 +199,7 @@ describe('social identities', () => {
       const { user } = await registerEmailUser()
 
       await expect(
-        ctx.unlinkIdentity.execute({ userId: user.id, provider: 'APPLE' }),
+        ctx.unlinkIdentity.execute({ userId: user.id, provider: 'FACEBOOK' }),
       ).rejects.toBeInstanceOf(IdentityNotFoundError)
     })
   })

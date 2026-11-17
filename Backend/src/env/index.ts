@@ -60,7 +60,6 @@ export const envSchema = z
       .string()
       .regex(/^v\d+\.\d+$/, 'must look like v24.0')
       .default('v24.0'),
-    APPLE_CLIENT_IDS: commaSeparatedList,
     SOCIAL_AUTH_MOCK: z.stringbool().default(false),
 
     // placeholder ids until the game sends the real list

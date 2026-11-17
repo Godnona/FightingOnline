@@ -4,7 +4,6 @@ import { z } from 'zod'
 
 import { socialLoginController } from '@/http/controllers/auth/social-login-controller'
 import {
-  appleProfileSchema,
   deviceInfoSchema,
   providerTokenSchema,
   socialAuthResponseSchema,
@@ -15,8 +14,6 @@ import type { SocialProvider } from '@/lib/oauth/social-token-verifier'
 export const socialLoginBodySchema = z.object({
   token: providerTokenSchema,
   deviceInfo: deviceInfoSchema,
-  /** Apple supplies the name only on the first authorization. Ignored for other providers. */
-  appleProfile: appleProfileSchema.optional(),
 })
 
 export type SocialLoginBody = z.infer<typeof socialLoginBodySchema>
@@ -28,7 +25,6 @@ const routes: ReadonlyArray<{ path: string; provider: SocialProvider; summary: s
     provider: 'FACEBOOK',
     summary: 'Sign in with a Facebook access token or Limited Login token',
   },
-  { path: '/apple', provider: 'APPLE', summary: 'Sign in with an Apple identity token' },
 ]
 
 export async function socialLogin(app: FastifyInstance) {
