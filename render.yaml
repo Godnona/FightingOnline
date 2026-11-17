@@ -5,7 +5,7 @@ services:
     plan: free
     region: singapore
     rootDir: Backend
-    buildCommand: npm ci && npm run db:deploy && npm run build && npm prune --omit=dev --omit=peer
+    buildCommand: npm ci --include=dev && npm run db:deploy && npm run build && npm prune --omit=dev --omit=peer
     startCommand: npm start
     healthCheckPath: /health/ready
     autoDeployTrigger: checksPass
