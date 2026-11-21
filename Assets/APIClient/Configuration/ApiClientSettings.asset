@@ -15,5 +15,5 @@ MonoBehaviour:
   activeEnvironment: 1
   environments:
   - environment: 1
-    baseUrl: https://ripptopia-api-staging.onrender.com/
-  timeoutSeconds: 15
+    baseUrl: https://api-staging.ripptopia.com
+  timeoutSeconds: 90

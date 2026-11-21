@@ -9,21 +9,24 @@ This folder contains the Unity-side API foundation described by the current inte
 - Automatic `Content-Type`, `Accept`, and Bearer headers.
 - Typed success/error results, `Retry-After`, and `x-request-id` capture.
 - Email registration/login and password recovery.
-- Google and Facebook provider-token endpoints (provider SDK integration is outside this layer).
-- Logout-all.
+- Google, Facebook, and Apple provider-token endpoints (provider SDK integration is outside this layer).
+- Automatic single-flight `/auth/refresh` with rotated-token protection.
+- Current-session logout and logout-all.
+- Identity list/link/removal for email, Google, Facebook, and Apple.
+- Apple web-login URL generation with `returnUrl`, PKCE `codeChallenge`, and staging `mockUser` support.
 - Current/public profile and profile updates.
 - In-memory token storage for development.
-- Single-flight refresh coordination with rotated-token protection.
+- Structured validation and display-name cooldown error details.
 
 ## Not yet implemented in this Unity client
 
-- Concrete `/auth/refresh` and `/auth/logout` calls (their bodies are now documented).
-- Identity linking/list/removal calls (their routes and response contracts are now documented).
-- Apple login and the optional first-authorization `appleProfile` payload.
+- Native Apple SDK/deep-link UI. `LoginWithAppleAsync` accepts an identity token or staging `mock:*` token;
+  `CreateAppleWebLoginRequest(returnUrl, mockUser)` generates the browser URL and PKCE verifier once the
+  app scheme and callback handling are configured.
 - Inventory, game-social, matchmaking, and matches APIs.
-- Exact structured models for `error.details`.
 
-Refresh is single-flight: a refresh token is single-use and a duplicate request can invalidate the session.
+Refresh is configured automatically and is single-flight: a refresh token is single-use and a duplicate
+request can invalidate the session.
 
 ## Setup
 

@@ -24,6 +24,7 @@ namespace Ripp.ApiClient.Authentication
         public ApiError Error { get; private set; }
         public string RequestId { get; private set; }
         public string RawBody { get; private set; }
+        public int? RetryAfterSeconds { get; private set; }
 
         public static RefreshOutcome Success()
         {
@@ -38,7 +39,8 @@ namespace Ripp.ApiClient.Authentication
                 StatusCode = result.StatusCode,
                 Error = result.Error,
                 RequestId = result.RequestId,
-                RawBody = result.RawBody
+                RawBody = result.RawBody,
+                RetryAfterSeconds = result.RetryAfterSeconds
             };
         }
 

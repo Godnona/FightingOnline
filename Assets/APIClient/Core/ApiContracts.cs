@@ -53,6 +53,22 @@ namespace Ripp.ApiClient.Core
     {
         public string code;
         public string message;
+        public ApiErrorDetails details;
+    }
+
+    [Serializable]
+    public sealed class ApiErrorDetails
+    {
+        public string location;
+        public string nextChangeAt;
+        public ApiValidationIssue[] issues;
+    }
+
+    [Serializable]
+    public sealed class ApiValidationIssue
+    {
+        public string path;
+        public string message;
     }
 
     public sealed class ApiResult<T>

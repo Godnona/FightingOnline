@@ -7,8 +7,6 @@ using ApiHttpClient = Ripp.ApiClient.Core.ApiClient;
 
 namespace Ripp.ApiClient
 {
-
-
     /// Composition root for game code. Create one instance and keep it across scenes.
     public sealed class ApiClientContext : IDisposable
     {
@@ -31,10 +29,10 @@ namespace Ripp.ApiClient
             Client = new ApiHttpClient(settings, TokenStorage, transport, jsonSerializer);
             Auth = new AuthApi(Client, TokenStorage);
             Profile = new ProfileApi(Client);
+            ConfigureRefresh(Auth);
         }
 
-  
-        /// Call this after implementing the documented /auth/refresh request contract.
+        /// <summary>Replaces the default backend refresh implementation, primarily for tests.</summary>
         public void ConfigureRefresh(IRefreshTokenService refreshTokenService)
         {
             if (refreshTokenService == null)

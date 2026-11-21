@@ -48,6 +48,48 @@ namespace Ripp.ApiClient.Authentication
         public bool isNewUser;
     }
 
+    public sealed class AppleWebLoginRequest
+    {
+        public string url;
+        public string codeVerifier;
+        public string codeChallenge;
+    }
+
+    public enum AuthProvider
+    {
+        Email,
+        Google,
+        Facebook,
+        Apple
+    }
+
+    [Serializable]
+    public sealed class LinkedIdentity
+    {
+        public string provider;
+        public string email;
+        public string linkedAt;
+        public string lastUsedAt;
+    }
+
+    [Serializable]
+    public sealed class IdentityListResponse
+    {
+        public LinkedIdentity[] identities;
+    }
+
+    [Serializable]
+    public sealed class IdentityResponse
+    {
+        public LinkedIdentity identity;
+    }
+
+    [Serializable]
+    internal sealed class SessionResponse
+    {
+        public AuthSession session;
+    }
+
     [Serializable]
     internal sealed class EmailPasswordRequest
     {
@@ -100,6 +142,18 @@ namespace Ripp.ApiClient.Authentication
         public string email;
         public string code;
         public string newPassword;
+    }
+
+    [Serializable]
+    internal sealed class RefreshTokenRequest
+    {
+        public string refreshToken;
+    }
+
+    [Serializable]
+    internal sealed class LogoutRequest
+    {
+        public string refreshToken;
     }
 
     [Serializable]

@@ -54,6 +54,21 @@ namespace Ripp.ApiClient.Core
             refreshCoordinator = coordinator;
         }
 
+        public string GetAbsoluteUrl(string route)
+        {
+            if (string.IsNullOrWhiteSpace(route))
+            {
+                throw new ArgumentException("API route is required.", nameof(route));
+            }
+
+            if (Uri.TryCreate(route, UriKind.Absolute, out _))
+            {
+                throw new ArgumentException("API routes must be relative to the configured base URL.", nameof(route));
+            }
+
+            return baseUrl + "/" + route.TrimStart('/');
+        }
+
         public Task<ApiResult<TResponse>> SendAsync<TResponse>(
             string method,
             string route,
@@ -108,7 +123,8 @@ namespace Ripp.ApiClient.Core
                         refresh.StatusCode,
                         refresh.Error,
                         refresh.RequestId,
-                        refresh.RawBody);
+                        refresh.RawBody,
+                        refresh.RetryAfterSeconds);
                 }
 
                 session = tokenStorage.Current;

@@ -1,4 +1,4 @@
-# Setup đăng nhập Google và Facebook
+# Setup đăng nhập Google, Facebook và Apple
 
 ## Test ngay trong Unity Editor
 
@@ -47,3 +47,14 @@ Không gửi access token hoặc server auth code vào endpoint này.
 
 Nếu dùng SDK Google khác, không cần define `GOOGLE_SIGN_IN`: từ callback của SDK, lấy ID token và gọi
 `GoogleLoginController.SubmitGoogleIdToken(idToken)`.
+
+## Apple
+
+- Test JSON API trên staging: gọi `ApiBootstrap.Api.Auth.LoginWithAppleAsync("mock:<user>")`.
+- Khi có identity token thật từ Apple SDK, truyền token đó vào cùng method.
+- Test luồng web: gọi
+  `ApiBootstrap.Api.Auth.CreateAppleWebLoginRequest(returnUrl, "<mock-user>")`, giữ lại
+  `codeVerifier`, rồi mở `url` bằng `Application.OpenURL`.
+- Luồng web chỉ quay lại game sau khi backend và Android/iOS đã thống nhất app scheme, ví dụ
+  `ripptopia://`, đồng thời client phải giữ PKCE verifier để hoàn tất callback. Không tự đưa Apple
+  private key hoặc client secret vào Unity project.
